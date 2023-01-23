@@ -116,6 +116,6 @@ class ProductController extends Controller
     public function destroy(Product $product)
     {
         $product->delete();
-        return redirect()->route('')->with('message', "$product->name cancellato");
+        return redirect()->route('admin.products.index')->with('message', "$product->name cancellato");
     }
 }
