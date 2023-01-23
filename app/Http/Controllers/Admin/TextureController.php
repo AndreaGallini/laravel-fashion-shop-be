@@ -43,7 +43,7 @@ class TextureController extends Controller
         $slug = Texture::generateSlug($request->name);
         $data['slug'] = $slug;
         $new_texture = Texture::create($data);
-        return redirect()->route('admin.taxtures.show', $new_texture->slug);
+        return redirect()->route('admin.textures.show', $new_texture->slug);
     }
 
     /**
