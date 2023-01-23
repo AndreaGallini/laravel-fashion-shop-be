@@ -6,7 +6,10 @@ use App\Http\Controllers\Controller;
 
 use App\Http\Requests\StoreProductRequest;
 use App\Http\Requests\UpdateProductRequest;
+use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Product;
+use App\Models\Texture;
 use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
@@ -29,7 +32,10 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('admin.products.create');
+        $categories = Category::all();
+        $brands = Brand::all();
+        $textures = Texture::all();
+        return view('admin.products.create', compact('product','categories','brands','textures'));
     }
 
     /**
@@ -72,7 +78,10 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        return view('admin.products.edit', compact('product'));
+        $categories = Category::all();
+        $brands = Brand::all();
+        $textures = Texture::all();
+        return view('admin.products.edit', compact('product','categories','brands','textures'));
     }
 
     /**
@@ -83,7 +92,18 @@ class ProductController extends Controller
      */
     public function update(UpdateProductRequest $request, Product $product)
     {
-        //
+             $data = $request->validated();
+        $slug = Product::generateSlug($request->name);
+        $data['slug'] = $slug;
+        if($request->hasFile('image')){
+            if($product->image){
+                Storage::delete($product->image);
+            }
+            $path = Storage::disk('public')->put('product_image', $request->image);
+            $data['image'] = $path;
+        }
+        $product->update($data);
+        return redirect()->route('', $product->slug)->with('message', "$product->name aggiornato");
     }
 
     /**
