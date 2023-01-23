@@ -48,10 +48,10 @@
                         <tr>
                             <th scope="row">{{$product->id}}</th>
                             <td><a href="{{route('admin.products.show', $product->slug)}}" title="View Product">{{$product->name}}</a></td>
-                            <td>{{$product->price}}</td>
+                            <td>{{$product->prezzo}}</td>
                             {{-- <td>{{$product->categories && count($product->categories) > 0 ? count($product->categories) : 0}}</td> --}}
                             <td>{{$product->category->name}}</td>
-                            <td>{{$product->texture->name}}</td>
+                            <td>{{ $product->texture_id }}</td>
                             <td>{{$product->brand->name}}</td>
                             <td><a class="link-secondary" href="{{route('admin.products.edit', $product->slug)}}" title="Edit Product">Edit</a></td>
                             <td>
