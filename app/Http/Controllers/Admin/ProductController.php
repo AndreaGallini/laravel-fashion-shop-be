@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreProductRequest;
 use App\Http\Requests\UpdateProductRequest;
 use App\Models\Product;
+use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
 {
@@ -39,7 +40,19 @@ class ProductController extends Controller
      */
     public function store(StoreProductRequest $request)
     {
-        //
+        $data = $request->validated();
+        $slug = Product::generateSlug($request->name);
+        $data['slug'] = $slug;
+        if($request->hasFile('image')){
+            $path = Storage::disk('public')->put('product_image', $request->image);
+            $data['image'] = $path;
+        }
+        $newProduct = Product::create($data);
+        if($request->has('tags')){
+            $newProduct->tags()->attach($request->tags);
+
+        }
+        return redirect()->route('');
     }
 
     /**
@@ -49,7 +62,7 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        //
+        return view('admin.products.show', compact('product'));
     }
 
     /**
@@ -59,7 +72,7 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        //
+        return view('admin.products.edit', compact('product'));
     }
 
     /**
@@ -80,6 +93,7 @@ class ProductController extends Controller
      */
     public function destroy(Product $product)
     {
-        //
+        $product->delete();
+        return redirect()->route('')->with('message', "$product->name cancellato");
     }
 }
