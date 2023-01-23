@@ -46,9 +46,10 @@
                 <tbody>
                     @foreach ($products as $product)
                         <tr>
-                            <th scope="row">{{$product->id}}</th>
-                            <td><a href="{{route('admin.products.show', $product->slug)}}" title="View Product">{{$product->name}}</a></td>
-                            <td>{{$product->prezzo}}</td>
+                            <th scope="row">{{ $product->id }}</th>
+                            <td><a href="{{ route('admin.products.show', $product->slug) }}"
+                                    title="View Product">{{ $product->name }}</a></td>
+                            <td>{{ $product->prezzo }}</td>
                             {{-- <td>{{$product->categories && count($product->categories) > 0 ? count($product->categories) : 0}}</td> --}}
                             <td>{{$product->category->name}}</td>
                             <td>{{$product->texture->name}}</td>
