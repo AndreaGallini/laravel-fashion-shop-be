@@ -17,7 +17,8 @@ class TextureController extends Controller
      */
     public function index()
     {
-        //
+        $textures = Texture::all();
+        return view('admin.textures.index', compact('textures'));
     }
 
     /**
@@ -27,7 +28,7 @@ class TextureController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.textures.create');
     }
 
     /**
@@ -38,7 +39,11 @@ class TextureController extends Controller
      */
     public function store(StoreTextureRequest $request)
     {
-        //
+        $data = $request->validated();
+        $slug = Texture::generateSlug($request->name);
+        $data['slug'] = $slug;
+        $new_texture = Texture::create($data);
+        return redirect()->route('admin.categories.show', $new_texture->slug);
     }
 
     /**
@@ -49,7 +54,8 @@ class TextureController extends Controller
      */
     public function show(Texture $texture)
     {
-        //
+        return view('admin.textures.show', compact('textures'));
+
     }
 
     /**
@@ -60,7 +66,8 @@ class TextureController extends Controller
      */
     public function edit(Texture $texture)
     {
-        //
+        return view('admin.textures.edit', compact('textures'));
+
     }
 
     /**
@@ -72,7 +79,11 @@ class TextureController extends Controller
      */
     public function update(UpdateTextureRequest $request, Texture $texture)
     {
-        //
+        $data = $request->validated();
+        $slug = Texture::generateSlug($request->name);
+        $data['slug'] = $slug;
+        $texture->update($data);
+        return redirect()->route('admin.textures.index')->with('message', "$texture->name updated successfully");
     }
 
     /**
@@ -83,6 +94,7 @@ class TextureController extends Controller
      */
     public function destroy(Texture $texture)
     {
-        //
+        $texture->delete();
+        return redirect()->route('admin.textures.index')->with('message', "$texture->name deleted successfully");
     }
 }
