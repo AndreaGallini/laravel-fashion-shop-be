@@ -37,7 +37,7 @@ class ProductController extends Controller
         $categories = Category::all();
         $brands = Brand::all();
         $textures = Texture::all();
-        return view('admin.products.create', compact('categories','brands','textures'));
+        return view('admin.products.create', compact('categories', 'brands', 'textures'));
     }
 
     /**
@@ -51,12 +51,12 @@ class ProductController extends Controller
         $data = $request->validated();
         $slug = Product::generateSlug($request->name);
         $data['slug'] = $slug;
-        if($request->hasFile('image')){
+        if ($request->hasFile('image')) {
             $path = Storage::disk('public')->put('product_image', $request->image);
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
-        if($request->has('tags')){
+        if ($request->has('tags')) {
             $newProduct->tags()->attach($request->tags);
 
         }
@@ -83,7 +83,7 @@ class ProductController extends Controller
         $categories = Category::all();
         $brands = Brand::all();
         $textures = Texture::all();
-        return view('admin.products.edit', compact('product','categories','brands','textures'));
+        return view('admin.products.edit', compact('product', 'categories', 'brands', 'textures'));
     }
 
     /**
@@ -94,11 +94,11 @@ class ProductController extends Controller
      */
     public function update(UpdateProductRequest $request, Product $product)
     {
-             $data = $request->validated();
+        $data = $request->validated();
         $slug = Product::generateSlug($request->name);
         $data['slug'] = $slug;
-        if($request->hasFile('image')){
-            if($product->image){
+        if ($request->hasFile('image')) {
+            if ($product->image) {
                 Storage::delete($product->image);
             }
             $path = Storage::disk('public')->put('product_image', $request->image);
