@@ -15,7 +15,7 @@ class ColorController extends Controller
      */
     public function index()
     {
-        //
+        // prova
     }
 
     /**
