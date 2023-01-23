@@ -22,10 +22,10 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call([
-            ProductSeeder::class, //inseriamo i nostri seeder cosi da far seddare con un singolo comando "php artisan db:seed"
             CategorySeeder::class,
             BrandSeeder::class,
             TextureSeeder::class,
+            ProductSeeder::class
         ]);
     }
 }

@@ -27,6 +27,9 @@ class ProductSeeder extends Seeder
             $newproduct->description = $product['description'];
             // $newproduct->n_product = $product['n_product'];
             $newproduct->prezzo = $product['price'];
+            $newproduct->category_id = $product['category_id'];
+            $newproduct->texture_id = $product['texture_id'];
+            $newproduct->brand_id = $product['brand_id'];
             $newproduct->save();
         }
     }
