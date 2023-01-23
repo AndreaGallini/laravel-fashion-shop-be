@@ -14,6 +14,8 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        //
+        $this->call([
+            ProjectTableSeeder::class, //inseriamo i nostri seeder cosi da far seddare con un singolo comando "php artisan db:seed"
+        ]);
     }
 }
