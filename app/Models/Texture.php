@@ -11,10 +11,10 @@ class Texture extends Model
 {
     use HasFactory;
 
-    protected $guarded = ['name'];
+    protected $guarded = [];
 
-    public static function generateSlug($name)
-    {
+    public static function generateSlug($name) {
         return Str::slug($name, '-');
     }
+
 }
