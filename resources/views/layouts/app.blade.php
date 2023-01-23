@@ -84,15 +84,16 @@
                                     </form>
                                 </div>
                             </li>
-                            </li>
-                    </div>
-            </nav>
+                        @endguest
+                    </ul>
+                </div>
+        </nav>
 
-
-        </div>
-        <main class="">
-               @yield('content')
+        <main>
+            @yield('content')
         </main>
-    </body>
+    </div>
+</body>
 
-    </html>
+
+</html>
