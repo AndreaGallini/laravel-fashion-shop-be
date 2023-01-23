@@ -52,7 +52,7 @@ class ProductController extends Controller
         $slug = Product::generateSlug($request->name);
         $data['slug'] = $slug;
         if ($request->hasFile('image')) {
-            $path = Storage::disk('public')->put('product_image', $request->image);
+            $path = Storage::disk('public')->put('images', $request->image);
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
