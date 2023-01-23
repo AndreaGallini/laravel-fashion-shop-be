@@ -40,7 +40,7 @@ Route::middleware(['auth', 'verified'])->name('admin.')->prefix('admin')
         Route::resource('products', ProductController::class)->parameters(['products' => 'product:slug']);
         Route::resource('categories', CategoryController::class)->parameters(['categories' => 'category:slug']);
         Route::resource('textures', TextureController::class)->parameters(['textures' => 'texture:slug']);
-        Route::resource('brans', BrandController::class)->parameters(['brands' => 'brand:slug']);
+        Route::resource('brands', BrandController::class)->parameters(['brands' => 'brand:slug']);
 
 
 
