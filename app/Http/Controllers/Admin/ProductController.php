@@ -60,7 +60,7 @@ class ProductController extends Controller
             $newProduct->tags()->attach($request->tags);
 
         }
-        return redirect()->route('');
+        return redirect()->route('admin.products.index');
     }
 
     /**
