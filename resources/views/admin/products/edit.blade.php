@@ -3,7 +3,7 @@
 @section('content')
     <section id="admin-show">
         <div>
-            <a class="back-btn btn btn-dark" href="{{route('admin.activities.index')}}">BACK</a>
+            <a class="back-btn btn btn-dark" href="{{route('admin.products.index')}}">BACK</a>
             <h1>{{ $product->name }}</h1>
             @if($product->categories && count($product->categories) > 0)
             @foreach ($product->categories as $category)
