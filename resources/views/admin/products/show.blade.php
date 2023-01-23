@@ -7,4 +7,8 @@
                              @else
                             <td>texture non attribuita</td>
                             @endif
+
+                <img class="mb-3 mt-5 show_img
+                " src="{{ asset('storage/' . $product->image) }}">
+
 @endsection
