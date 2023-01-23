@@ -59,7 +59,7 @@ class ProductController extends Controller
 
 
         if ($request->hasFile('image')) {
-            $path = Storage::disk('public')->put('product_image', $request->image);
+            $path = Storage::disk('public')->put('images', $request->image);
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
@@ -112,7 +112,7 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $product->update($data);
-        return redirect()->route('', $product->slug)->with('message', "$product->name aggiornato");
+        return redirect()->route('admin.products.index', $product->slug)->with('message', "$product->name aggiornato");
     }
 
     /**

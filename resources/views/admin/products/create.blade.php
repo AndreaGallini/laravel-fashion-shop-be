@@ -57,40 +57,38 @@
                         class="form-control @error('categories_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($categories as $category)
-                            <option value="{{ $category->id }}"
-                                {{ $category->id == old('categories_id') ? 'selected' : '' }}>
+                            <option value="{{ $category->id }}" {{ $category->id == old('category_id') ? 'selected' : '' }}>
                                 {{ $category->name }}</option>
                         @endforeach
                     </select>
-                    @error('categories_id')
+                    @error('category_id')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
                 <div class="mb-3">
-                    <label for="textures_id" class="form-label">Select Texture</label>
-                    <select name="textures_id" id="textures_id"
-                        class="form-control @error('textures_id') is-invalid @enderror">
+                    <label for="texture_id" class="form-label">Select Texture</label>
+                    <select name="texture_id" id="texture_id"
+                        class="form-control @error('texture_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($textures as $texture)
-                            <option value="{{ $texture->id }}"
-                                {{ $texture->id == old('textures_id') ? 'selected' : '' }}>
+                            <option value="{{ $texture->id }}" {{ $texture->id == old('texture_id') ? 'selected' : '' }}>
                                 {{ $texture->name }}</option>
                         @endforeach
                     </select>
-                    @error('textures_id')
+                    @error('texture_id')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
                 <div class="mb-3">
-                    <label for="brands_id" class="form-label">Select Brand</label>
-                    <select name="brands_id" id="brands_id" class="form-control @error('brands_id') is-invalid @enderror">
+                    <label for="brand_id" class="form-label">Select Brand</label>
+                    <select name="brand_id" id="brand_id" class="form-control @error('brand_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($brands as $brand)
-                            <option value="{{ $brand->id }}" {{ $brand->id == old('brands_id') ? 'selected' : '' }}>
+                            <option value="{{ $brand->id }}" {{ $brand->id == old('brand_id') ? 'selected' : '' }}>
                                 {{ $brand->name }}</option>
                         @endforeach
                     </select>
-                    @error('brands_id')
+                    @error('brand_id')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
