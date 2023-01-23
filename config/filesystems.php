@@ -13,11 +13,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'default' => env('FILESYSTEM_DISK', 'public'),
-=======
-    'default' => env('FILESYSTEM_DISK', 'public '),
->>>>>>> 522875a1ed2de145c94aee3fe259fa70f969b26a
 
     /*
     |--------------------------------------------------------------------------
