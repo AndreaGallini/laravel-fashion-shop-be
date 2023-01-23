@@ -6,7 +6,7 @@ import.meta.glob([
 ])
 
 
-const previewImage = document.getElementById('create_cover_image');
+const previewImage = document.getElementById('image');
 previewImage.addEventListener('change', (event) => {
     var oFReader = new FileReader();
     // var image  =  previewImage.files[0];
