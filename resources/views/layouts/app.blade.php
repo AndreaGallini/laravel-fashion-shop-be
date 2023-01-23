@@ -89,19 +89,11 @@
                 </div>
         </nav>
 
-<<<<<<< HEAD
         <main>
             @yield('content')
         </main>
     </div>
 </body>
-=======
 
-        </div>
-        <main class="">
-               @yield('content')
-        </main>
-    </body>
->>>>>>> origin/HEAD
 
 </html>
