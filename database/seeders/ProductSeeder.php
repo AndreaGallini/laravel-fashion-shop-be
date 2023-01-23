@@ -25,18 +25,19 @@ class ProductSeeder extends Seeder
             $newproduct->slug = Str::slug($newproduct->name, '-');
             $newproduct->image = ProductSeeder::storeimage($product['api_featured_image']);
             $newproduct->description = $product['description'];
-         //   $newproduct->n_product = $product['n_product'];
+            // $newproduct->n_product = $product['n_product'];
             $newproduct->prezzo = $product['price'];
             $newproduct->save();
         }
     }
-        public static function storeimage($img){
-        $url = 'https:'.$img;
+    public static function storeimage($img)
+    {
+        $url = 'https:' . $img;
         $contents = file_get_contents($url);
         $temp_name = substr($url, strrpos($url, '/') + 1);
-        $name = substr($temp_name, 0, strpos($temp_name, '?')) .'.jpg';
+        $name = substr($temp_name, 0, strpos($temp_name, '?')) . '.jpg';
         $path = 'images/' . $name;
-        Storage::put('images/'.$name, $contents);
+        Storage::put('images/' . $name, $contents);
         return $path;
     }
 }
