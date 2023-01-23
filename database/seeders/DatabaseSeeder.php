@@ -21,8 +21,11 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-         $this->call([
+        $this->call([
             ProductSeeder::class, //inseriamo i nostri seeder cosi da far seddare con un singolo comando "php artisan db:seed"
+            CategorySeeder::class,
+            BrandSeeder::class,
+            TextureSeeder::class,
         ]);
     }
 }
