@@ -1,1 +1,35 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+#admin-index{
+    background-color: beige;
+
+    nav{
+        height: 100px;
+        border-bottom: 3px solid grey;
+        h2{
+            color: gray;
+        }
+        ul{
+            margin: 0;
+            list-style: none;
+            width: 650px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    padding: 3px 8px;
+                    &.active{
+                        border-bottom: 2px solid grey;
+                        color: palevioletred
+                    }
+                }
+            }
+        }
+    }
+
+    .create-new{
+        margin: 15px;
+    }
+}
