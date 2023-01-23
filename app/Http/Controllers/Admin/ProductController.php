@@ -56,11 +56,11 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
-        if ($request->has('tags')) {
-            $newProduct->tags()->attach($request->tags);
+        // if ($request->has('tags')) {
+        //     $newProduct->tags()->attach($request->tags);
 
-        }
-        return redirect()->route('admin.products.index');
+        // }
+        return redirect()->route('admin.products.index', $newProduct->slug)->with('message', "La creazione di $newProduct->name è andata a buon fine!");
     }
 
     /**
@@ -105,7 +105,7 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $product->update($data);
-        return redirect()->route('', $product->slug)->with('message', "$product->name aggiornato");
+        return redirect()->route('admin.products.index', $product->slug)->with('message', "$product->name aggiornato");
     }
 
     /**
