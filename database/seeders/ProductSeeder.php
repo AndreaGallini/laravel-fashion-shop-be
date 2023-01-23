@@ -15,7 +15,7 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        $products = config('fashion_array');
+        $products = config('fashion_array.products');
         // dd($products);
         foreach ($products as $product) {
             $newproduct = new Product();
