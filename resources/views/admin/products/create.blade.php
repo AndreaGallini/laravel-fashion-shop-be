@@ -9,16 +9,17 @@
             <form action="{{ route('admin.products.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
 
+
                 <div class="mb-3">
                     <label for="name" class="form-label">Add name </label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
-                        name="name" required maxlength="150">
+                        name="name"  maxlength="150">
                     @error('name')
                         <div class="invalid-feedback">
                             {{ $message }}
                         </div>
                     @enderror
-                    <div class="form-text">* Massimo 150 caratteri</div>
+
                 </div>
 
                 <div class="mb-3">
@@ -42,17 +43,17 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="price" class="form-label">Price</label>
-                    <input type="number" class="form-control @error('price') is-invalid @enderror" id="price"
-                        name="price">
-                    @error('price')
+                    <label for="prezzo" class="form-label">Price</label>
+                    <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="price"
+                        name="prezzo">
+                    @error('prezzo')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
 
                 <div class="mb-3">
                     <label for="categories_id" class="form-label">Select Category</label>
-                    <select name="categories_id" id="categories_id"
+                    <select name="categories" id="categories_id"
                         class="form-control @error('categories_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($categories as $category)
