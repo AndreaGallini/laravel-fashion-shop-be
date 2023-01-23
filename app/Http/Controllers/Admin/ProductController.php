@@ -48,19 +48,26 @@ class ProductController extends Controller
      */
     public function store(StoreProductRequest $request)
     {
+
         $data = $request->validated();
+
         $slug = Product::generateSlug($request->name);
+
         $data['slug'] = $slug;
+        $data['name'] = $request->name;
+           dd($data);
+
+
         if ($request->hasFile('image')) {
             $path = Storage::disk('public')->put('images', $request->image);
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
-        // if ($request->has('tags')) {
-        //     $newProduct->tags()->attach($request->tags);
+        if ($request->has('categories')) {
+            $newProduct->tags()->attach($request->categories);
 
-        // }
-        return redirect()->route('admin.products.index', $newProduct->slug)->with('message', "La creazione di $newProduct->name è andata a buon fine!");
+        }
+        return redirect()->route('admin.products.index')->with('message',"$newProduct->name creato");
     }
 
     /**
