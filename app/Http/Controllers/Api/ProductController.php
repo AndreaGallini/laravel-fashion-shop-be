@@ -29,7 +29,7 @@ class ProductController extends Controller
         } else {
             return response()->json([
                 'success' => false,
-                'results' => 'Nessun prodotto trovato'
+                'results' => 'Nessun prodotto trovatoo'
             ]);
         }
     }
