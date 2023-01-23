@@ -15,6 +15,7 @@ class Brand extends Model
 
     public static function generateSlug($name) {
         return Str::slug($name, '-');
+        ;
     }
 
 }
