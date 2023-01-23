@@ -33,10 +33,11 @@ class ProductController extends Controller
      */
     public function create()
     {
+
         $categories = Category::all();
         $brands = Brand::all();
         $textures = Texture::all();
-        return view('admin.products.create', compact('product','categories','brands','textures'));
+        return view('admin.products.create', compact('categories','brands','textures'));
     }
 
     /**
