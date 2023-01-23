@@ -51,13 +51,21 @@
                                     title="View Product">{{ $product->name }}</a></td>
                             <td>{{ $product->prezzo }}</td>
                             {{-- <td>{{$product->categories && count($product->categories) > 0 ? count($product->categories) : 0}}</td> --}}
+                            @if($product->category)
                             <td>{{$product->category->name}}</td>
+                            @else
+                            <td>Categoria non attribuita</td>
+                            @endif
                             @if ($product->texture)
                             <td> {{ $product->texture->name }}</td>
                              @else
                             <td>texture non attribuita</td>
                             @endif
+                            @if($product->brand)
                             <td>{{$product->brand->name}}</td>
+                            @else
+                            <td>Brand non attribuito</td>
+                            @endif
                             <td><a class="link-secondary" href="{{route('admin.products.edit', $product->slug)}}" title="Edit Product">Edit</a></td>
                             <td>
                                 <form action="{{ route('admin.products.destroy', $product->slug) }}" method="POST">

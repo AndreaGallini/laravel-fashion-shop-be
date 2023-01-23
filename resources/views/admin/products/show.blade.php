@@ -31,17 +31,29 @@
                 <div class="info-row d-flex justify-content-around my-3">
                     <div class="info-col d-flex justify-content-between">
                         <span>Texture:</span>
+                        @if($product->texture)
                         <span>{{$product->texture->name}}</span>
+                        @else
+                        <span>Texture not specified</span>
+                        @endif
                     </div>
                     <div class="info-col d-flex justify-content-between">
                         <span>Brand:</span>
+                        @if($product->brand)
                         <span>{{$product->brand->name}}</span>
+                        @else
+                        <span>Brand not specified</span>
+                        @endif
                     </div>
                 </div>
                 <div class="info-row d-flex justify-content-around my-3">
                     <div class="info-col d-flex justify-content-between">
                         <span>Category:</span>
+                        @if($product->category)
                         <span>{{$product->category->name}}</span>
+                        @else
+                        <span>Category not specified</span>
+                        @endif
                     </div>
                 </div>
             </div>

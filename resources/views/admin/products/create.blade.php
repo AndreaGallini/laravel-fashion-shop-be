@@ -44,7 +44,7 @@
 
                 <div class="mb-3">
                     <label for="prezzo" class="form-label">Price</label>
-                    <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="price"
+                    <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="prezzo"
                         name="prezzo">
                     @error('prezzo')
                         <div class="invalid-feedback">{{ $message }}</div>
@@ -52,12 +52,14 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="categories_id" class="form-label">Select Category</label>
-                    <select name="categories" id="categories_id"
-                        class="form-control @error('categories_id') is-invalid @enderror">
+                    <label for="category_id" class="form-label">Select Category</label>
+                    <select name="category_id" id="category_id"
+                        class="form-control @error('category_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($categories as $category)
-                            <option value="{{ $category->id }}" {{ $category->id == old('category_id') ? 'selected' : '' }}>
+                            {{-- <option value="{{ $category->id }}" {{ $category->id == old('category_id') ? 'selected' : '' }}> --}}
+                            <option value="{{ $category->id }}">
+
                                 {{ $category->name }}</option>
                         @endforeach
                     </select>
@@ -71,7 +73,9 @@
                         class="form-control @error('texture_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($textures as $texture)
-                            <option value="{{ $texture->id }}" {{ $texture->id == old('texture_id') ? 'selected' : '' }}>
+                            {{-- <option value="{{ $texture->id }}" {{ $texture->id == old('texture_id') ? 'selected' : '' }}> --}}
+                            <option value="{{ $texture->id }}">
+
                                 {{ $texture->name }}</option>
                         @endforeach
                     </select>
@@ -84,7 +88,9 @@
                     <select name="brand_id" id="brand_id" class="form-control @error('brand_id') is-invalid @enderror">
                         <option value="">Select Category</option>
                         @foreach ($brands as $brand)
-                            <option value="{{ $brand->id }}" {{ $brand->id == old('brand_id') ? 'selected' : '' }}>
+                            {{-- <option value="{{ $brand->id }}" {{ $brand->id == old('brand_id') ? 'selected' : '' }}> --}}
+                            <option value="{{ $brand->id }}">
+
                                 {{ $brand->name }}</option>
                         @endforeach
                     </select>

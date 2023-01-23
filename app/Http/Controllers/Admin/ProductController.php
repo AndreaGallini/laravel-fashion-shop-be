@@ -54,8 +54,8 @@ class ProductController extends Controller
         $slug = Product::generateSlug($request->name);
 
         $data['slug'] = $slug;
-        $data['name'] = $request->name;
-           dd($data);
+        // $data['name'] = $request->name;
+        //    dd($data);
 
 
         if ($request->hasFile('image')) {
@@ -63,10 +63,10 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
-        if ($request->has('categories')) {
-            $newProduct->tags()->attach($request->categories);
+        // if ($request->has('categories')) {
+        //     $newProduct->tags()->attach($request->categories);
 
-        }
+        // }
         return redirect()->route('admin.products.index')->with('message',"$newProduct->name creato");
     }
 
