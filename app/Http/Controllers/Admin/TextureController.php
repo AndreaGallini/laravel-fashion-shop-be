@@ -66,7 +66,7 @@ class TextureController extends Controller
      */
     public function edit(Texture $texture)
     {
-        return view('admin.textures.edit', compact('textures'));
+        return view('admin.textures.edit', compact('texture'));
 
     }
 

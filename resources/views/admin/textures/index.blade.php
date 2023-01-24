@@ -29,7 +29,7 @@
             </ul>
         </nav>
         <div class="create-new">
-            <a href="{{ route('admin.textures.create') }}" class="btn btn-outline-success">New Textures</a>
+            <a href="{{ route('admin.textures.create') }}" class="btn btn-outline-success">New Texture</a>
         </div>
         <div class="activities-list mt-1">
             <table class="table table-striped">
