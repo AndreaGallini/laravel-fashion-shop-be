@@ -21,8 +21,8 @@ class ColorSeeder extends Seeder
         // dd($categories);
         foreach ($colors as $color) {
             $newcolor = new Color();
-            $newcolor->name = $color->colour_name;
-            $newcolor->hex_value = $color->hex_value;
+            $newcolor->name = $color['colour_name'];
+            $newcolor->hex_value = $color['hex_value'];
             $newcolor->slug = Str::slug($newcolor->name, '-');
             $newcolor->save();
         }

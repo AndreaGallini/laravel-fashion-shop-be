@@ -19,6 +19,9 @@
                         @endif
 
                         <p> Welcome {{ Auth::user()->name }}! You are logged in!</p>
+                        <div>
+                            <a href="{{route('admin.products.index')}}">Products Index</a>
+                        </div>
                     </div>
                 </div>
             </div>
