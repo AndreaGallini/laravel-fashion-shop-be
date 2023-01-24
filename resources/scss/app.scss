@@ -1,9 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
+body{
+    background-color: beige;
+}
 
 #admin-index{
-    background-color: beige;
-
     nav{
         height: 100px;
         border-bottom: 3px solid grey;
@@ -35,8 +36,6 @@
 }
 
 #admin-show{
-    background-color: beige;
-    min-height: 100vh;
     .back-btn{
         margin: 5px;
     }
@@ -57,6 +56,14 @@
                 span{
                     &:first-of-type{
                         font-weight: bolder;
+                    }
+                }
+                .tags{
+                    small{
+                        &:not(:last-of-type)::after{
+                            content: '/';
+                            margin: 0 10px;
+                        }
                     }
                 }
             }

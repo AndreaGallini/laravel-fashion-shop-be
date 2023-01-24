@@ -95,7 +95,9 @@ class ProductController extends Controller
         $categories = Category::all();
         $brands = Brand::all();
         $textures = Texture::all();
-        return view('admin.products.edit', compact('product', 'categories', 'brands', 'textures'));
+        $tags = Tag::all();
+        $colors = Color::all();
+        return view('admin.products.edit', compact('product', 'categories', 'brands', 'textures', 'tags', 'colors'));
     }
 
     /**
@@ -117,6 +119,18 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $product->update($data);
+
+        if($request->has('tags')){
+            $product->tags()->sync($request->tags);
+        } else {
+            $product->tags()->sync([]);
+        }
+
+        if($request->has('colors')){
+            $product->colors()->sync($request->colors);
+        } else {
+            $product->colors()->sync([]);
+        }
         return redirect()->route('admin.products.index')->with('message', "$product->name aggiornato");
     }
 

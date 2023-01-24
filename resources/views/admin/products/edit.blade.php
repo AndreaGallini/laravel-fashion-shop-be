@@ -6,12 +6,12 @@
         <div class="container">
             <h2 class="mt-4 mb-4 text-center">Aggiorna {{ $product->name }}</h2>
 
-            <form action="{{ route('admin.products.update', $product->slug) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('admin.products.update', $product->slug) }}" method="POST" class="py-5" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
                 <div class="mb-3">
-                    <label for="name" class="form-label">Add name</label>
+                    <label for="name" class="form-label">Edit name</label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
                         name="name" value="{{ old('name', $product->name) }}">
                     @error('name')
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="description" class="form-label">Add description</label>
+                    <label for="description" class="form-label">Edit description</label>
                     <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description">{{ old('description', $product->description) }} </textarea>
 
                     @error('description')
@@ -33,8 +33,8 @@
                 </div>
                 <div class="d-flex">
                     <div class="media me-4">
-                        {{-- <img class="shadow" width="150" src="{{ asset('storage/' . $product->image) }}"
-                            alt="{{ $product->image }}"> --}}
+                        <img class="shadow" width="150" src="{{ asset('storage/' . $product->image) }}"
+                            alt="{{ $product->image }}">
                     </div>
                     <div class="mb-3">
                         <label for="image" class="form-label">Replace products image</label>
@@ -102,6 +102,37 @@
                     @enderror
                 </div>
 
+                <div class="mb-3">
+                    <h5>Select Tags</h5>
+                    @foreach ($tags as $tag)
+                    <div class="form-check form-check-inline">
+                        @if (old("tags"))
+                            <input type="checkbox" class="form-check-input" id="{{$tag->slug}}" name="tags[]" value="{{$tag->id}}" {{in_array( $tag->id, old("tags", []) ) ? 'checked' : ''}}>
+                        @else
+                            <input type="checkbox" class="form-check-input" id="{{$tag->slug}}" name="tags[]" value="{{$tag->id}}" {{$product->tags->contains($tag) ? 'checked' : ''}}>
+                        @endif
+                        <label class="form-check-label" for="{{$tag->slug}}">{{$tag->name}}</label>
+                    </div>
+                @endforeach
+                @error('tags')
+                    <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
+
+                <div class="mb-3">
+                    <h5>Select Colors</h5>
+                    @foreach ($colors as $color)
+                    <div class="form-check form-check-inline">
+                        @if (old("colors"))
+                            <input type="checkbox" class="form-check-input" id="{{$color->slug}}" name="colors[]" value="{{$color->id}}" {{in_array( $color->id, old("colors", []) ) ? 'checked' : ''}}>
+                        @else
+                            <input type="checkbox" class="form-check-input" id="{{$color->slug}}" name="colors[]" value="{{$color->id}}" {{$product->colors->contains($color) ? 'checked' : ''}}>
+                        @endif
+                        <label style="background-color: {{ $color->hex_value }}" class="form-check-label text-white px-2 rounded-pill" for="{{$color->slug}}">{{$color->name}}</label>
+                    </div>
+                @endforeach
+                @error('colors')
+                    <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
 
                 <div class="my-5">
                     <button type="submit" class="btn btn-success">Aggiungi</button>

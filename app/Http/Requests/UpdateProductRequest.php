@@ -33,7 +33,7 @@ class UpdateProductRequest extends FormRequest
             'prezzo' => ['required'],
             'category_id' => 'nullable|exists:categories,id',
             'brand_id' => 'nullable|exists:brands,id',
-            'texture_id' => 'nullable|exists:textures,id'
+            'texture_id' => 'nullable|exists:textures,id',
         ];
     }
     public function messages()

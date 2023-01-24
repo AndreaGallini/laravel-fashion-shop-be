@@ -56,6 +56,34 @@
                         @endif
                     </div>
                 </div>
+                <div class="info-row d-flex justify-content-around my-3">
+                    <div class="info-col d-flex justify-content-between">
+                        <span>Tags:</span>
+                        <div class="tags">
+                            @if($product->tags && count($product->tags) > 0)
+                                @foreach ($product->tags as $tag)
+                                    <small class="d-inline">{{$tag->name}}</small>
+                                @endforeach
+                            @else
+                                <span>No tags Specified</span>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+                <div class="info-row d-flex justify-content-around my-3">
+                    <div class="info-col d-flex justify-content-between">
+                        <span>Colors:</span>
+                        <div>
+                            @if($product->colors && count($product->colors) > 0)
+                                @foreach ($product->colors as $color)
+                                    <small style="background-color: {{ $color->hex_value }}" class="d-inline p-2 rounded-pill text-white">{{$color->name}}</small>
+                                @endforeach
+                            @else
+                                <span>No Colors Specified</span>
+                            @endif
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="text-center">
                 <h3>Description:</h3>

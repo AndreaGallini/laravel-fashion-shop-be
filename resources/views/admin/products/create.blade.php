@@ -7,7 +7,7 @@
 
             <h2 class="mt-3 mb-3 text-center">Add a new Product</h2>
 
-            <form action="{{ route('admin.products.store') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('admin.products.store') }}" method="POST" class="py-5" enctype="multipart/form-data">
                 @csrf
 
 
@@ -100,33 +100,29 @@
                     @enderror
                 </div>
 
-                  <div class="mb-3">
-                    <label for="tags" class="form-label">Tags</label>
-                    <select multiple class="form-select" name="tags[]" id="tags">
-                        <option value="">Seleziona tag</option>
-                        @forelse ($tags as $tag)
-                        <option value="{{$tag->id}}">{{$tag->name}}</option>
-                        @empty
-                            <option value="">No tag</option>
-                        @endforelse
-                    </select>
-                  </div>
+                  <div>
+                    <h5>Select Tags</h5>
+                    @foreach ($tags as $tag)
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="{{$tag->slug}}" name="tags[]" value="{{$tag->id}}">
+                            <label class="form-check-label" for="{{$tag->slug}}">{{$tag->name}}</label>
+                        </div>
+                    @endforeach
 
-                  <div class="mb-3">
-                    <label for="colors" class="form-label">Colors</label>
-                    <select multiple class="form-select" name="colors[]" id="colors">
-                        <option value="">Seleziona Colore</option>
-                        @forelse ($colors as $color)
-                        <option class="text-white" value="{{$color->id}}" style="background-color: {{ $color->hex_value }}">{{$color->name}}</option>
-                        @empty
-                            <option value="">No Color</option>
-                        @endforelse
-                    </select>
-                  </div>
+                  <div class="mt-3">
+                    <h5>Select Colors</h5>
+                    @foreach ($colors as $color)
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="{{$color->slug}}" name="colors[]" value="{{$color->id}}">
+                            <label style="background-color: {{ $color->hex_value }}" class="form-check-label text-white px-2 rounded-pill" for="{{$color->slug}}">{{$color->name}}</label>
+                        </div>
+                    @endforeach
 
 
-                <button type="submit" class="btn btn-success mb-5">Aggiungi</button>
-                <button type="reset" class="btn btn-danger mb-5">Resetta</button>
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-success">Aggiungi</button>
+                    <button type="reset" class="btn btn-danger">Resetta</button>
+                </div>
             </form>
         </div>
         <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
