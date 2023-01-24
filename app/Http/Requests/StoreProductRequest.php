@@ -30,8 +30,8 @@ class StoreProductRequest extends FormRequest
             'n_product' => 'nullable',
             'prezzo' => 'required',
             'category_id' => 'nullable|exists:categories,id',
-            'brand_id' => 'nullable|exists:brand,id',
-            'texture_id' => 'nullable|exists:texture,id'
+            'brand_id' => 'nullable|exists:brands,id',
+            'texture_id' => 'nullable|exists:textures,id'
         ];
     }
     public function messages(){

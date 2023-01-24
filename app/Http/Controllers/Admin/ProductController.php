@@ -50,7 +50,7 @@ class ProductController extends Controller
     {
 
         $data = $request->validated();
-        dd($data);
+
 
         $slug = Product::generateSlug($request->name);
 

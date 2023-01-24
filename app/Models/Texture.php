@@ -13,6 +13,7 @@ class Texture extends Model
     use HasFactory;
 
     protected $guarded = [];
+    protected $table = 'textures';
 
     public static function generateSlug($name) {
         return Str::slug($name, '-');
