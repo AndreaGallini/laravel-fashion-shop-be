@@ -1,33 +1,7 @@
 @extends('layouts.admin')
 @section('content')
     <section id="admin-index">
-        <nav class="d-flex justify-content-start align-items-center container">
-            <h2 class="me-3">Admin's Office: Textures</h2>
-            <ul class="d-flex justify-content-between align-items-center">
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.products.index' ? 'active' : '' }}"
-                        href="{{ route('admin.products.index') }}">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}"
-                        href="{{ route('admin.categories.index') }}">Categories</a>
-                </li>
-                {{-- <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}" href="{{route('admin.colors.index')}}">Colors</a>
-                </li> --}}
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.textures.index' ? 'active' : '' }}"
-                        href="{{ route('admin.textures.index') }}">Textures</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}"
-                        href="{{ route('admin.brands.index') }}">Brands</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}" href="{{route('admin.tags.index')}}">Tags</a>
-                </li>
-            </ul>
-        </nav>
+        @include('partials.admin.navbar')
         <div class="create-new">
             <a href="{{ route('admin.textures.create') }}" class="btn btn-outline-success">New Texture</a>
         </div>
@@ -37,6 +11,8 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
                     </tr>
                 </thead>
                 <tbody>
