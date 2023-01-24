@@ -12,9 +12,9 @@
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}"
                         href="{{ route('admin.categories.index') }}">Categories</a>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}" href="{{route('admin.colors.index')}}">Colors</a>
-                </li> --}}
+                </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.textures.index' ? 'active' : '' }}"
                         href="{{ route('admin.textures.index') }}">Textures</a>
@@ -23,9 +23,9 @@
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}"
                         href="{{ route('admin.brands.index') }}">Brands</a>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}" href="{{route('admin.tags.index')}}">Tags</a>
-                </li> --}}
+                </li>
             </ul>
         </nav>
         <div class="create-new">
