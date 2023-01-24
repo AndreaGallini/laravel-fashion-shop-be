@@ -55,7 +55,7 @@
                             @method('PATCH')
                             <input class="border-0 bg-transparent fs-3" type="text" name="name"
                                 value="{{ $color->name }}">
-                            <input class="border-0 bg-transparent fs-3" type="text" name="hex_value"
+                            <input class="border-0 fs-3 text-white" style="background-color: {{ $color->hex_value }}" type="text" name="hex_value"
                                 value="{{ $color->hex_value }}">
                             <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;" />
                         </form>
