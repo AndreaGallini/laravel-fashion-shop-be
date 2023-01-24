@@ -26,15 +26,16 @@ class StoreProductRequest extends FormRequest
         return [
             'name' => 'required|min:5|max:100',
             'image' => 'nullable',
-            'description'=>'nullable',
+            'description' => 'nullable',
             'n_product' => 'nullable',
             'prezzo' => 'required',
             'category_id' => 'nullable|exists:categories,id',
-            'brand_id' => 'nullable|exists:brand,id',
-            'texture_id' => 'nullable|exists:texture,id'
+            'brand_id' => 'nullable|exists:brands,id',
+            'texture_id' => 'nullable|exists:textures,id'
         ];
     }
-    public function messages(){
+    public function messages()
+    {
         return [
             'name.required' => 'Il titolo è obbligatorio.',
             'name.min' => 'Il titolo deve essere lungo almeno :min caratteri.',

@@ -13,7 +13,7 @@
                 <div class="mb-3">
                     <label for="name" class="form-label">Add name </label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
-                        name="name"  maxlength="150">
+                        name="name" required maxlength="100">
                     @error('name')
                         <div class="invalid-feedback">
                             {{ $message }}
@@ -45,7 +45,7 @@
                 <div class="mb-3">
                     <label for="prezzo" class="form-label">Price</label>
                     <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="prezzo"
-                        name="prezzo">
+                        name="prezzo" required>
                     @error('prezzo')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
@@ -71,7 +71,7 @@
                     <label for="texture_id" class="form-label">Select Texture</label>
                     <select name="texture_id" id="texture_id"
                         class="form-control @error('texture_id') is-invalid @enderror">
-                        <option value="">Select Category</option>
+                        <option value="">Select Texture</option>
                         @foreach ($textures as $texture)
                             {{-- <option value="{{ $texture->id }}" {{ $texture->id == old('texture_id') ? 'selected' : '' }}> --}}
                             <option value="{{ $texture->id }}">
@@ -86,7 +86,7 @@
                 <div class="mb-3">
                     <label for="brand_id" class="form-label">Select Brand</label>
                     <select name="brand_id" id="brand_id" class="form-control @error('brand_id') is-invalid @enderror">
-                        <option value="">Select Category</option>
+                        <option value="">Select Brand</option>
                         @foreach ($brands as $brand)
                             {{-- <option value="{{ $brand->id }}" {{ $brand->id == old('brand_id') ? 'selected' : '' }}> --}}
                             <option value="{{ $brand->id }}">
