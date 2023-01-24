@@ -25,8 +25,8 @@ class StoreColorRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|mix:2|max:50|unique:colors',
-            'hex_value' => 'required|min:7|max:10'
+            'name' => 'required|unique:colors',
+            'hex_value' => 'required'
         ];
     }
 
@@ -34,12 +34,8 @@ class StoreColorRequest extends FormRequest
     {
         return [
             'name.required' => 'Il nome è obbligatorio.',
-            'name.min' => 'Il nome deve essere lungo almeno :min caratteri.',
-            'name.max' => 'Il nome non può superare i :max caratteri.',
             'name.unique:categories' => 'Il nome esiste già',
             'hex_value.required' => 'Il nome è obbligatorio.',
-            'hex_value.min' => 'Il nome deve essere lungo almeno :min caratteri.',
-            'hex_value.max' => 'Il nome non può superare i :max caratteri.',
         ];
     }
 }
