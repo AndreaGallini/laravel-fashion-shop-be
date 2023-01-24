@@ -12,9 +12,10 @@
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}"
                         href="{{ route('admin.categories.index') }}">Categories</a>
                 </li>
-                {{-- <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}" href="{{route('admin.colors.index')}}">Colors</a>
-                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}"
+                        href="{{ route('admin.colors.index') }}">Colors</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.textures.index' ? 'active' : '' }}"
                         href="{{ route('admin.textures.index') }}">Textures</a>
@@ -24,7 +25,8 @@
                         href="{{ route('admin.brands.index') }}">Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}" href="{{route('admin.tags.index')}}">Tags</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}"
+                        href="{{ route('admin.tags.index') }}">Tags</a>
                 </li>
             </ul>
         </nav>
@@ -51,22 +53,23 @@
                                     title="View Product">{{ $product->name }}</a></td>
                             <td>{{ $product->prezzo }}</td>
                             {{-- <td>{{$product->categories && count($product->categories) > 0 ? count($product->categories) : 0}}</td> --}}
-                            @if($product->category)
-                            <td>{{$product->category->name}}</td>
+                            @if ($product->category)
+                                <td>{{ $product->category->name }}</td>
                             @else
-                            <td>Categoria non attribuita</td>
+                                <td>Categoria non attribuita</td>
                             @endif
                             @if ($product->texture)
-                            <td> {{ $product->texture->name }}</td>
-                             @else
-                            <td>texture non attribuita</td>
-                            @endif
-                            @if($product->brand)
-                            <td>{{$product->brand->name}}</td>
+                                <td> {{ $product->texture->name }}</td>
                             @else
-                            <td>Brand non attribuito</td>
+                                <td>texture non attribuita</td>
                             @endif
-                            <td><a class="link-secondary" href="{{route('admin.products.edit', $product->slug)}}" title="Edit Product">Edit</a></td>
+                            @if ($product->brand)
+                                <td>{{ $product->brand->name }}</td>
+                            @else
+                                <td>Brand non attribuito</td>
+                            @endif
+                            <td><a class="link-secondary" href="{{ route('admin.products.edit', $product->slug) }}"
+                                    title="Edit Product">Edit</a></td>
                             <td>
                                 <form action="{{ route('admin.products.destroy', $product->slug) }}" method="POST">
                                     @csrf
@@ -82,5 +85,4 @@
         </div>
     </section>
     @include('partials.admin.modal-delete')
-
 @endsection

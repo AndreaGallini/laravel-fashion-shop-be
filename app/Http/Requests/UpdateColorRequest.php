@@ -26,7 +26,7 @@ class UpdateColorRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required', Rule::unique('colors')->ignore($this->tag)],
+            'name' => ['required', Rule::unique('colors')->ignore($this->color)],
             'hex_value' => 'required|min:7|max:10'
 
         ];

@@ -83,6 +83,7 @@ class ColorController extends Controller
         $slug = Color::generateSlug($request->name);
         $data['slug'] = $slug;
         $color->update($data);
+
         return redirect()->back()->with('message', "Color $slug updated successfully");
     }
 
