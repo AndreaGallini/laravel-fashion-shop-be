@@ -50,6 +50,7 @@ class ProductController extends Controller
     {
 
         $data = $request->validated();
+        dd($data);
 
         $slug = Product::generateSlug($request->name);
 
@@ -63,11 +64,9 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
-        // if ($request->has('categories')) {
-        //     $newProduct->tags()->attach($request->categories);
 
-        // }
-        return redirect()->route('admin.products.index')->with('message',"$newProduct->name creato");
+
+        return redirect()->route('admin.products.index');
     }
 
     /**

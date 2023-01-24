@@ -1,9 +1,11 @@
 @extends('layouts.admin')
 
 @section('content')
+
     <section id="admin-show">
         <a class="back-btn btn btn-dark" href="{{ route('admin.products.index') }}">BACK</a>
         <div class="container">
+
             <h2 class="mt-3 mb-3 text-center">Add a new Product</h2>
 
             <form action="{{ route('admin.products.store') }}" method="POST" enctype="multipart/form-data">
