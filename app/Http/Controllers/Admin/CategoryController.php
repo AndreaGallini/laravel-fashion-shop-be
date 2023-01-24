@@ -42,7 +42,7 @@ class CategoryController extends Controller
         $slug = Category::generateSlug($request->name);
         $data['slug'] = $slug;
         $new_category = Category::create($data);
-        return redirect()->route('admin.categories.show', $new_category->slug);
+        return redirect()->route('admin.categories.index');
     }
 
     /**
