@@ -40,7 +40,7 @@ class BrandController extends Controller
         $slug = Brand::generateSlug($request->name);
         $data['slug'] = $slug;
         $new_brand = Brand::create($data);
-        return redirect()->route('');
+        return redirect()->route('admin.brands.index');
     }
 
     /**

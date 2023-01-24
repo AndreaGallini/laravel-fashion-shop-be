@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-md">
         <h2>Add your Category</h2>
-        <form action="{{ route('admin.brands.store') }}" method="POST">
+        <form action="{{ route('admin.categories.store') }}" method="POST">
             @csrf
             <div class="form-group mt-4 mb-4">
                 <label for="name">Category Name</label>
