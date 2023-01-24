@@ -5,13 +5,12 @@
             <a class="nav-link {{ Route::currentRouteName() == 'admin.products.index' ? 'active' : '' }}"
                 href="{{ route('admin.products.index') }}">Products</a>
         </li>
+        <li class="ms-4 me-2">
+            <p class="m-0 text-secondary"> 1 to many:</p>
+        </li>
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}"
                 href="{{ route('admin.categories.index') }}">Categories</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}"
-                href="{{ route('admin.colors.index') }}">Colors</a>
         </li>
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() == 'admin.textures.index' ? 'active' : '' }}"
@@ -20,6 +19,13 @@
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}"
                 href="{{ route('admin.brands.index') }}">Brands</a>
+        </li>
+        <li class="ms-4 me-2">
+            <p class="m-0 text-secondary">Many to many:</p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {{ Route::currentRouteName() == 'admin.colors.index' ? 'active' : '' }}"
+                href="{{ route('admin.colors.index') }}">Colors</a>
         </li>
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}"
