@@ -39,9 +39,9 @@
             <form action="{{ route('admin.colors.store') }}" method="POST" class="d-flex flex-column align-items-center">
                 @csrf
                 <input type="text" name="name" id="name" class="form-control mb-3"
-                    placeholder="Add a color name here">
+                    placeholder="Add a color name here" required>
                 <input type="text" name="hex_value" id="hex_value" class="form-control mb-3"
-                    placeholder="Add a color hex_value here">
+                    placeholder="Add a color hex_value here" required>
                 <button class="btn btn-outline-success" type="submit">Nuovo color</button>
             </form>
             <ul class="mt-5">
@@ -55,7 +55,7 @@
                                 value="{{ $color->name }}">
                             <input class="border-0 bg-transparent fs-3" type="text" name="hex_value"
                                 value="{{ $color->hex_value }}">
-                            <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+                            <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;" />
                         </form>
                         <form action="{{ route('admin.colors.destroy', $color->slug) }}" method="POST">
                             @csrf
