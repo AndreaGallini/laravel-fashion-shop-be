@@ -81,4 +81,6 @@
             </table>
         </div>
     </section>
+    @include('partials.admin.modal-delete')
+
 @endsection
