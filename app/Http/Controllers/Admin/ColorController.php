@@ -99,4 +99,6 @@ class ColorController extends Controller
 
         return redirect()->back()->with('message', "Color $color->name removed successfully");
     }
+
+
 }
