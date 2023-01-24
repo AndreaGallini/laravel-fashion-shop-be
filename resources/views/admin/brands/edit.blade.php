@@ -2,8 +2,9 @@
 @section('content')
     <div class="container-md">
         <h2>Add your Brand</h2>
-        <form action="{{ route('admin.brands.store') }}" method="POST">
+        <form action="{{ route('admin.brands.update',$brand->slug) }}" method="POST">
             @csrf
+            @method('PUT')
             <div class="form-group mt-4 mb-4">
                 <label for="name">Brand Name</label>
                 <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" placeholder="Brand Name" value="{{ old('name',$brand->name) }}">
