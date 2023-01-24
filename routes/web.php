@@ -41,6 +41,9 @@ Route::middleware(['auth', 'verified'])->name('admin.')->prefix('admin')
         Route::resource('categories', CategoryController::class)->parameters(['categories' => 'category:slug']);
         Route::resource('textures', TextureController::class)->parameters(['textures' => 'texture:slug']);
         Route::resource('brands', BrandController::class)->parameters(['brands' => 'brand:slug']);
+        Route::resource('tags', TagController::class)->parameters(['tags' => 'tag:slug'])->except('show','create','edit');
+
+
 
 
 

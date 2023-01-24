@@ -13,7 +13,7 @@ class StoreTagRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,16 @@ class StoreTagRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => 'required|unique:tags|min:3|max:20'
+        ];
+    }
+
+    public function messages(){
+        return [
+            'name.required' => 'Il tag deve avere un nome!',
+            'name.unique:projects' => 'Il Tag esiste già.',
+            'name.min' => 'Il Tag deve essere lungo almeno 3 caratteri.',
+            'name.max' => 'Il Tag non può essere più lungo di 20 caratteri.'
         ];
     }
 }
