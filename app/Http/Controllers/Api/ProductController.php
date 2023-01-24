@@ -5,13 +5,15 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Models\Brand;
+
 
 
 class ProductController extends Controller
 {
     public function index()
     {
-        $product = Product::all();
+        $product = Product::with('brand', 'category', 'texture')->get(); //aggiungere colori
         return response()->json([
             'success' => true,
             'results' => $product
