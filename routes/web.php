@@ -42,6 +42,7 @@ Route::middleware(['auth', 'verified'])->name('admin.')->prefix('admin')
         Route::resource('textures', TextureController::class)->parameters(['textures' => 'texture:slug']);
         Route::resource('brands', BrandController::class)->parameters(['brands' => 'brand:slug']);
 
+        Route::resource('colors', ColorController::class)->parameters(['colors' => 'color:slug']);
 
 
     });

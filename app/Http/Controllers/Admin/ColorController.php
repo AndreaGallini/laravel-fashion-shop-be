@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
+
 use App\Http\Controllers\Controller;
 
 use App\Http\Requests\StoreColorRequest;
@@ -16,7 +17,8 @@ class ColorController extends Controller
      */
     public function index()
     {
-        // prova
+        $colors = Color::all();
+        return view('admin.colors.index', compact('colors'));
     }
 
     /**
@@ -24,10 +26,10 @@ class ColorController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
+    // public function create()
+    // {
+    //     //
+    // }
 
     /**
      * Store a newly created resource in storage.
@@ -37,7 +39,13 @@ class ColorController extends Controller
      */
     public function store(StoreColorRequest $request)
     {
-        //
+        $data = $request->validated();
+        $slug = Color::generateSlug($request->name);
+        $data['slug'] = $slug;
+
+        Color::create($data);
+
+        return redirect()->back()->with('message', "Color $slug added successfully");
     }
 
     /**
@@ -46,10 +54,10 @@ class ColorController extends Controller
      * @param  \App\Models\Color  $color
      * @return \Illuminate\Http\Response
      */
-    public function show(Color $color)
-    {
-        //
-    }
+    // public function show(Color $color)
+    // {
+    //     //
+    // }
 
     /**
      * Show the form for editing the specified resource.
@@ -57,10 +65,10 @@ class ColorController extends Controller
      * @param  \App\Models\Color  $color
      * @return \Illuminate\Http\Response
      */
-    public function edit(Color $color)
-    {
-        //
-    }
+    // public function edit(Color $color)
+    // {
+    //     //
+    // }
 
     /**
      * Update the specified resource in storage.
@@ -71,7 +79,11 @@ class ColorController extends Controller
      */
     public function update(UpdateColorRequest $request, Color $color)
     {
-        //
+        $data = $request->validated();
+        $slug = Color::generateSlug($request->name);
+        $data['slug'] = $slug;
+        $color->update($data);
+        return redirect()->back()->with('message', "Color $slug updated successfully");
     }
 
     /**
@@ -82,6 +94,8 @@ class ColorController extends Controller
      */
     public function destroy(Color $color)
     {
-        //
+        $color->delete();
+
+        return redirect()->back()->with('message', "Color $color->name removed successfully");
     }
 }
