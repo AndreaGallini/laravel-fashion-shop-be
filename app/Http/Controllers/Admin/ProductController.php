@@ -50,6 +50,7 @@ class ProductController extends Controller
     {
 
         $data = $request->validated();
+        dd($data);
 
         $slug = Product::generateSlug($request->name);
 
@@ -63,6 +64,7 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $newProduct = Product::create($data);
+
 
         return redirect()->route('admin.products.index');
     }
