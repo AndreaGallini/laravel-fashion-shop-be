@@ -42,7 +42,7 @@
                     placeholder="Add a color name here">
                 {{-- <input type="text" name="hex_value" id="hex_value" class="form-control mb-3"
                     placeholder="Add a color hex_value here"> --}}
-                <input type="color" name="hex_value" id="hex_value" value="#45f3ff">
+                <input type="color" name="hex_value" id="hex_value" value="#45f3ff" class="mb-3">
 
                 <button class="btn btn-outline-success" type="submit">Nuovo color</button>
             </form>
