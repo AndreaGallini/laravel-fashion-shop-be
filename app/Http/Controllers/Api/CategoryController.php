@@ -4,34 +4,32 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Product;
-use App\Models\Brand;
+use App\Models\Category;
 
 
-
-class ProductController extends Controller
+class CategoryController extends Controller
 {
     public function index()
     {
-        $products = Product::with('brand', 'category', 'texture')->get(); //aggiungere colori
+        $categories = Category::with('products')->get(); //aggiungere colori
         return response()->json([
             'success' => true,
-            'results' => $products
+            'results' => $categories
         ]);
     }
 
     public function show($slug)
     {
-        $product = Product::where('slug', $slug)->with('brand', 'category', 'texture')->first();
-        if ($product) {
+        $category = Category::where('slug', $slug)->with('products')->first();
+        if ($category) {
             return response()->json([
                 'success' => true,
-                'results' => $product
+                'results' => $category
             ]);
         } else {
             return response()->json([
                 'success' => false,
-                'results' => 'Nessun prodotto trovatoo'
+                'results' => 'Nessuna categoria trovata'
             ]);
         }
     }
