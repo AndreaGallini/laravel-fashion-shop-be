@@ -76,7 +76,7 @@ class BrandController extends Controller
         $slug = Brand::generateSlug($request->name);
         $data['slug'] = $slug;
         $brand->update($data);
-        return redirect()->route('')->with('message', "$brand->name aggiornato con successo");
+        return redirect()->route('admin.brands.index')->with('message', "$brand->name aggiornato con successo");
     }
 
     /**
@@ -87,6 +87,6 @@ class BrandController extends Controller
     public function destroy(Brand $brand)
     {
         $brand->delete();
-        return redirect()->route('')->with('message', "$brand->name è stato eliminato");
+        return redirect()->route('admin.brands.index')->with('message', "$brand->name è stato eliminato");
     }
 }
