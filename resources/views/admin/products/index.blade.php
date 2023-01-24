@@ -2,7 +2,7 @@
 @section('content')
     <section id="admin-index">
         <nav class="d-flex justify-content-start align-items-center container">
-            <h2 class="me-3">Admin's Office:</h2>
+            <h2 class="me-3">Admin's Office: Products</h2>
             <ul class="d-flex justify-content-between align-items-center">
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.products.index' ? 'active' : '' }}"
