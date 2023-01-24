@@ -3,6 +3,8 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
+
 
 class UpdateColorRequest extends FormRequest
 {
@@ -13,7 +15,7 @@ class UpdateColorRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +26,22 @@ class UpdateColorRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => ['required', Rule::unique('colors')->ignore($this->tag)],
+            'hex_value' => 'required|min:7|max:10'
+
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'name.required' => 'Il nome è obbligatorio.',
+            'name.min' => 'Il nome deve essere lungo almeno :min caratteri.',
+            'name.max' => 'Il nome non può superare i :max caratteri.',
+            'name.unique:categories' => 'Il nome esiste già',
+            'hex_value.required' => 'Il nome è obbligatorio.',
+            'hex_value.min' => 'Il nome deve essere lungo almeno :min caratteri.',
+            'hex_value.max' => 'Il nome non può superare i :max caratteri.',
         ];
     }
 }
