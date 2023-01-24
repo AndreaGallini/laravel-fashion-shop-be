@@ -23,9 +23,9 @@
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}"
                         href="{{ route('admin.brands.index') }}">Brands</a>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'admin.tags.index' ? 'active' : '' }}" href="{{route('admin.tags.index')}}">Tags</a>
-                </li> --}}
+                </li>
             </ul>
         </nav>
         <div class="create-new">
