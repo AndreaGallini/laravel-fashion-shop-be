@@ -14,11 +14,12 @@ class Brand extends Model
 
     protected $guarded = [];
 
-    public static function generateSlug($name) {
+    public static function generateSlug($name)
+    {
         return Str::slug($name, '-');
     }
 
-    public function products():HasMany
+    public function products(): HasMany
     {
         return $this->hasMany(Product::class);
     }
