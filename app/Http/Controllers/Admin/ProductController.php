@@ -66,7 +66,7 @@ class ProductController extends Controller
         $newProduct = Product::create($data);
 
 
-        return redirect()->route('admin.products.index');
+        return redirect()->route('admin.products.index', $newProduct->slug)->with('message', "La creazione di $newProduct->title è andata a buon fine!");
     }
 
     /**
@@ -111,7 +111,7 @@ class ProductController extends Controller
             $data['image'] = $path;
         }
         $product->update($data);
-        return redirect()->route('admin.products.index', $product->slug)->with('message', "$product->name aggiornato");
+        return redirect()->route('admin.products.index')->with('message', "$product->name aggiornato");
     }
 
     /**

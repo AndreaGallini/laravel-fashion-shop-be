@@ -1,7 +1,6 @@
 @extends('layouts.admin')
 
 @section('content')
-
     <section id="admin-show">
         <a class="back-btn btn btn-dark" href="{{ route('admin.products.index') }}">BACK</a>
         <div class="container">
@@ -17,7 +16,7 @@
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
                         name="name" required maxlength="100">
                     @error('name')
-                        <div class="invalid-feedback">
+                        <div class="invalid-feedback d-block">
                             {{ $message }}
                         </div>
                     @enderror
@@ -28,7 +27,7 @@
                     <label for="description" class="form-label">Add description</label>
                     <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description"></textarea>
                     @error('description')
-                        <div class="invalid-feedback">
+                        <div class="invalid-feedback d-block">
                             {{ $message }}
                         </div>
                     @enderror
@@ -40,7 +39,7 @@
                     <input type="file" name="image" id="image"
                         class="form-control  @error('image') is-invalid @enderror">
                     @error('image')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -49,7 +48,7 @@
                     <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="prezzo"
                         name="prezzo" required>
                     @error('prezzo')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -66,7 +65,7 @@
                         @endforeach
                     </select>
                     @error('category_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
                 <div class="mb-3">
@@ -82,7 +81,7 @@
                         @endforeach
                     </select>
                     @error('texture_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
                 <div class="mb-3">
@@ -97,7 +96,7 @@
                         @endforeach
                     </select>
                     @error('brand_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
