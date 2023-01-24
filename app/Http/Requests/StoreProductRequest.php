@@ -31,7 +31,7 @@ class StoreProductRequest extends FormRequest
             'prezzo' => 'required',
             'category_id' => 'nullable|exists:categories,id',
             'brand_id' => 'nullable|exists:brands,id',
-            'texture_id' => 'nullable|exists:textures,id'
+            'texture_id' => 'nullable|exists:textures,id',
         ];
     }
     public function messages()
@@ -40,7 +40,6 @@ class StoreProductRequest extends FormRequest
             'name.required' => 'Il titolo è obbligatorio.',
             'name.min' => 'Il titolo deve essere lungo almeno :min caratteri.',
             'name.max' => 'Il titolo non può superare i :max caratteri.',
-
             'prezzo.required' => 'Il prezzo è obbligatorio',
         ];
     }

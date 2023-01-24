@@ -100,9 +100,33 @@
                     @enderror
                 </div>
 
+                  <div class="mb-3">
+                    <label for="tags" class="form-label">Tags</label>
+                    <select multiple class="form-select" name="tags[]" id="tags">
+                        <option value="">Seleziona tag</option>
+                        @forelse ($tags as $tag)
+                        <option value="{{$tag->id}}">{{$tag->name}}</option>
+                        @empty
+                            <option value="">No tag</option>
+                        @endforelse
+                    </select>
+                  </div>
 
-                <button type="submit" class="btn btn-success">Aggiungi</button>
-                <button type="reset" class="btn btn-danger">Resetta</button>
+                  <div class="mb-3">
+                    <label for="colors" class="form-label">Colors</label>
+                    <select multiple class="form-select" name="colors[]" id="colors">
+                        <option value="">Seleziona Colore</option>
+                        @forelse ($colors as $color)
+                        <option class="text-white" value="{{$color->id}}" style="background-color: {{ $color->hex_value }}">{{$color->name}}</option>
+                        @empty
+                            <option value="">No Color</option>
+                        @endforelse
+                    </select>
+                  </div>
+
+
+                <button type="submit" class="btn btn-success mb-5">Aggiungi</button>
+                <button type="reset" class="btn btn-danger mb-5">Resetta</button>
             </form>
         </div>
         <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>

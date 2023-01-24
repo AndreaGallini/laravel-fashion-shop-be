@@ -10,6 +10,8 @@ use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\Texture;
+use App\Models\Tag;
+use App\Models\Color;
 use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
@@ -22,7 +24,6 @@ class ProductController extends Controller
     public function index()
     {
         $products = Product::all();
-
         return view('admin.products.index', compact('products'));
     }
 
@@ -37,7 +38,10 @@ class ProductController extends Controller
         $categories = Category::all();
         $brands = Brand::all();
         $textures = Texture::all();
-        return view('admin.products.create', compact('categories', 'brands', 'textures'));
+        $tags = Tag::all();
+        $colors = Color::all();
+
+        return view('admin.products.create', compact('categories', 'brands', 'textures', 'tags', 'colors'));
     }
 
     /**
@@ -55,9 +59,6 @@ class ProductController extends Controller
         $slug = Product::generateSlug($request->name);
 
         $data['slug'] = $slug;
-        // $data['name'] = $request->name;
-        //    dd($data);
-
 
         if ($request->hasFile('image')) {
             $path = Storage::disk('public')->put('images', $request->image);
@@ -65,7 +66,12 @@ class ProductController extends Controller
         }
         $newProduct = Product::create($data);
 
-
+        if($request->has('tags')){
+            $newProduct->tags()->attach($request->tags);
+        }
+        if($request->has('colors')){
+            $newProduct->colors()->attach($request->colors);
+        }
         return redirect()->route('admin.products.index', $newProduct->slug)->with('message', "La creazione di $newProduct->title è andata a buon fine!");
     }
 

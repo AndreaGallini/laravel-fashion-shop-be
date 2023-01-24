@@ -15,6 +15,8 @@
                         <th scope="col">Categories</th>
                         <th scope="col">Textures</th>
                         <th scope="col">Brands</th>
+                        <th scope="col">Tags(total)</th>
+                        <th scope="col">Colors(total)</th>
                         <th scope="col">Edit</th>
                         <th scope="col">Delete</th>
                     </tr>
@@ -26,7 +28,6 @@
                             <td><a href="{{ route('admin.products.show', $product->slug) }}"
                                     title="View Product">{{ $product->name }}</a></td>
                             <td>{{ $product->prezzo }}</td>
-                            {{-- <td>{{$product->categories && count($product->categories) > 0 ? count($product->categories) : 0}}</td> --}}
                             @if ($product->category)
                                 <td>{{ $product->category->name }}</td>
                             @else
@@ -42,6 +43,8 @@
                             @else
                                 <td>Brand non attribuito</td>
                             @endif
+                            <td>{{$product->tags && count($product->tags) > 0 ? count($product->tags) : 0}}</td>
+                            <td>{{$product->colors && count($product->colors) > 0 ? count($product->colors) : 0}}</td>
                             <td><a class="link-secondary" href="{{ route('admin.products.edit', $product->slug) }}"
                                     title="Edit Product">Edit</a></td>
                             <td>
