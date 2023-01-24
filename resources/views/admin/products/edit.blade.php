@@ -15,7 +15,7 @@
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
                         name="name" value="{{ old('name', $product->name) }}">
                     @error('name')
-                        <div class="invalid-feedback">
+                        <div class="invalid-feedback d-block">
                             {{ $message }}
                         </div>
                     @enderror
@@ -26,32 +26,32 @@
                     <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description">{{ old('description', $product->description) }} </textarea>
 
                     @error('description')
-                        <div class="invalid-feedback">
+                        <div class="invalid-feedback d-block">
                             {{ $message }}
                         </div>
                     @enderror
                 </div>
                 <div class="d-flex">
                     <div class="media me-4">
-                        <img class="shadow" width="150" src="{{ asset('storage/' . $product->image) }}"
-                            alt="{{ $product->image }}">
+                        {{-- <img class="shadow" width="150" src="{{ asset('storage/' . $product->image) }}"
+                            alt="{{ $product->image }}"> --}}
                     </div>
                     <div class="mb-3">
                         <label for="image" class="form-label">Replace products image</label>
                         <input type="file" name="image" id="image"
                             class="form-control  @error('image') is-invalid @enderror">
                         @error('image')
-                            <div class="invalid-feedback">{{ $message }}</div>
+                            <div class="invalid-feedback d-block">{{ $message }}</div>
                         @enderror
                     </div>
                 </div>
 
                 <div class="mb-3">
-                    <label for="price" class="form-label">Price</label>
-                    <input type="number" class="form-control @error('price') is-invalid @enderror" id="price"
-                        name="price" value="{{ old('name', $product->price) }}">
-                    @error('price')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                    <label for="prezzo" class="form-label">Price</label>
+                    <input type="number" class="form-control @error('prezzo') is-invalid @enderror" id="prezzo"
+                        name="prezzo" value="{{ old('prezzo', $product->prezzo) }}" required>
+                    @error('prezzo')
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -67,7 +67,7 @@
                         @endforeach
                     </select>
                     @error('category_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -82,7 +82,7 @@
                         @endforeach
                     </select>
                     @error('texture_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -96,7 +96,7 @@
                         @endforeach
                     </select>
                     @error('brand_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
+                        <div class="invalid-feedback d-block">{{ $message }}</div>
                     @enderror
                 </div>
 

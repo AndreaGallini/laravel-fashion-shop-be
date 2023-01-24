@@ -3,6 +3,8 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
+
 
 class UpdateProductRequest extends FormRequest
 {
@@ -24,19 +26,22 @@ class UpdateProductRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required','unique:products','min:5','max:100'],
+            'name' => ['required', 'min:5', 'max:100', Rule::unique('products')->ignore($this->product)],
             'image' => ['nullable'],
-            'description'=>['nullable'],
+            'description' => ['nullable'],
             'n_product' => ['nullable'],
-            'prezzo' => ['required']
+            'prezzo' => ['required'],
+            'category_id' => 'nullable|exists:categories,id',
+            'brand_id' => 'nullable|exists:brands,id',
+            'texture_id' => 'nullable|exists:textures,id'
         ];
     }
-    public function messages(){
+    public function messages()
+    {
         return [
             'name.required' => 'Il titolo è obbligatorio.',
             'name.min' => 'Il titolo deve essere lungo almeno :min caratteri.',
             'name.max' => 'Il titolo non può superare i :max caratteri.',
-            'name.unique:products' => 'Il titolo esiste già',
             'prezzo.required' => 'Il prezzo è obbligatorio',
         ];
     }
