@@ -654,14 +654,14 @@ return [
             "description" =>
             "Hypoallergenic shadows that are rich in colour with a lightweight texture.  These MarieNatie shadows are fragrance-free and will stay on all day.   Compact comes with a mini brush that can be stored away.  Titanium dioxide acts as an absorbent of oil and jojoba cleanses and moisturizes the skin.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/027/original/open-uri20180630-4-2ii6k2?1530390377",
 
         ],
         [
             "id" => 1026,
-            "brand" => 30,
+            "brand_id" => 30,
             "name" => "Mineral Blush",
             "price" => "0.0",
             "price_sign" => "$",
@@ -681,7 +681,7 @@ return [
         ],
         [
             "id" => 1025,
-            "brand" => 30,
+            "brand_id" => 30,
             "name" => "Perfect Lash Mascara",
             "price" => "0.0",
             "price_sign" => "$",
@@ -694,14 +694,14 @@ return [
             "description" =>
             "Marie Natie Perfect Lash Mascara is made with all natural ingredients that will not only condition your lashes but lengthen and thicken your every lash with every stroke.  Oregano, rosemary and thyme extract are great antioxidants and helps to maintain skin health.  Cinnamon bark extracts helps to fight infection.  Lemon peel extract contains natural healing and soothing properties.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/025/original/open-uri20180630-4-yxmmga?1530390376",
         ],
         [
 
             "id" => 1024,
-            "brand" => 30,
+            "brand_id" => 30,
             "name" => "Loose Mineral Eyeshadow",
             "price" => "0.0",
             "price_sign" => "$",
@@ -714,14 +714,14 @@ return [
             "description" =>
             "Long-lasting eye colours delivering an instant glam and shimmer.  Silky and soft texture of MarieNatie glides on easily when applied wet or dry.  Magnesium stearate repels water and will help keep your eye shadow on all day and absorb any extra oil.  Kaolin clay will help to purify, soothe different skin types.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/024/original/open-uri20180630-4-13b5ehh?1530390375",
         ],
         [
             "id" => 1023,
-            "brand" => 30,
-            "name" => "Lipstick",
+            "brand_id" => 30,
+            "name" => "Lipstick special",
             "price" => "0.0",
             "price_sign" => "$",
             "currency" => "USD",
@@ -738,8 +738,8 @@ return [
         ],
         [
             "id" => 1022,
-            "brand" => 30,
-            "name" => "Lip Gloss",
+            "brand_id" => 30,
+            "name" => "Lip Gloss special",
             "price" => "0.0",
             "price_sign" => "$",
             "currency" => "USD",
@@ -755,7 +755,7 @@ return [
         ],
         [
             "id" => 1021,
-            "brand" => "marienatie",
+            "brand_id" => 30,
             "name" => "Gel Liner",
             "price" => "0.0",
             "price_sign" => "$",
@@ -773,7 +773,7 @@ return [
         ],
         [
             "id" => 1020,
-            "brand" => 30,
+            "brand_id" => 30,
             "name" => "Eyeliner",
             "price" => "0.0",
             "price_sign" => "$",
@@ -791,7 +791,7 @@ return [
         ],
         [
             "id" => 1019,
-            "brand" => 28,
+            "brand_id" => 28,
             "name" => "Mineral Eye Brow Liner Charcoal Brown",
             "price" => "0.0",
             "price_sign" => "$",
@@ -809,7 +809,7 @@ return [
         ],
         [
             "id" => 1018,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Mascara",
             "price" => "0.0",
             "price_sign" => "$",
@@ -822,13 +822,13 @@ return [
             "description" =>
             "All natural mascara lengthens, thickens, and defines lashes. Created with coffee extract, rice proteins and sunflower oil to condition lashes. Smudge proof and water resistant for lashes that will all day. Made with natural and organic ingredients. In Black, and Brown.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/018/original/open-uri20180630-4-g58t74?1530390371",
         ],
         [
             "id" => 1017,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Creme to Powder Blush",
             "price" => "0.0",
             "price_sign" => "$",
@@ -847,7 +847,7 @@ return [
         ],
         [
             "id" => 1016,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Eye Shadow Palette Mesmerize",
             "price" => "0.0",
             "price_sign" => "$",
@@ -859,13 +859,13 @@ return [
             "description" =>
             "A four-color eyeshadow palette infused with natural minerals and antioxidant rich extracts to help prevent fine lines and wrinkles. Easily blendable shades give you the ability to create effortlessly natural or dramatic looks. Made with natural and organic ingredients.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/016/original/open-uri20180630-4-1mmjptw?1530390369",
         ],
         [
             "id" => 1015,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Eye Shadow Palette Deluxe",
             "price" => "0.0",
             "price_sign" => "$",
@@ -877,13 +877,13 @@ return [
             "description" =>
             "A four-color eyeshadow palette infused with natural minerals and antioxidant rich extracts to help prevent fine lines and wrinkles. Easily blendable shades give you the ability to create effortlessly natural or dramatic looks. Made with natural and organic ingredients.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/015/original/open-uri20180630-4-egfs2g?1530390369",
         ],
         [
             "id" => 1014,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Eye Shadow Palette Smokey",
             "price" => "0.0",
             "price_sign" => "$",
@@ -895,13 +895,13 @@ return [
             "description" =>
             "A four-color eyeshadow palette infused with natural minerals and antioxidant rich extracts to help prevent fine lines and wrinkles. Easily blendable shades give you the ability to create effortlessly natural or dramatic looks. Made with natural and organic ingredients.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/014/original/open-uri20180630-4-1y604g6?1530390368",
         ],
         [
             "id" => 1013,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Eye Shadow Palette Seduction",
             "price" => "0.0",
             "price_sign" => "$",
@@ -913,13 +913,13 @@ return [
             "description" =>
             "A four-color eyeshadow palette infused with natural minerals and antioxidant rich extracts to help prevent fine lines and wrinkles. Easily blendable shades give you the ability to create effortlessly natural or dramatic looks. Made with natural and organic ingredients.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/013/original/open-uri20180630-4-1x4t7kg?1530390367",
         ],
         [
             "id" => 1012,
-            "brand" => 27,
+            "brand_id" => 27,
             "name" => "Eye Shadow Palette Cocoa",
             "price" => "0.0",
             "price_sign" => "$",
@@ -931,13 +931,13 @@ return [
             "description" =>
             "A four-color eyeshadow palette infused with natural minerals and antioxidant rich extracts to help prevent fine lines and wrinkles. Easily blendable shades give you the ability to create effortlessly natural or dramatic looks. Made with natural and organic ingredients.",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 5,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/012/original/open-uri20180630-4-1rlpw5a?1530390367",
         ],
         [
             "id" => 1011,
-            "brand" => 24,
+            "brand_id" => 24,
             "name" => "Volumising Mascara",
             "price" => "0.0",
             "price_sign" => "$",
@@ -950,13 +950,13 @@ return [
             "description" =>
             "Natural mineral pigments for intense natural black colour. Nourish roots and condition lashes with 98percent natural ingredients. Unique precision brush offers excellent lash definition Natural cellulose micro spheres give outstanding volume Vitamin E, Sunflower oil & Organic Beeswax",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/011/original/open-uri20180630-4-ojcehy?1530390366",
         ],
         [
             "id" => 1010,
-            "brand" => 13,
+            "brand_id" => 13,
             "name" => "Conch Lipstick",
             "price" => "0.0",
             "price_sign" => "$",
@@ -975,7 +975,7 @@ return [
         ],
         [
             "id" => 1009,
-            "brand" => 9,
+            "brand_id" => 9,
             "name" => "Reflect Lip Gloss",
             "price" => "0.0",
             "price_sign" => "$",
@@ -993,7 +993,7 @@ return [
         ],
         [
             "id" => 1008,
-            "brand" => 9,
+            "brand_id" => 9,
             "name" => "Muse Mascara",
             "price" => "0.0",
             "price_sign" => "$",
@@ -1005,13 +1005,13 @@ return [
             "description" =>
             "Define, lengthen and nourish lashes with organic shea butter, grapeseed and jojoba oils. Lashes are coated gently and evenly without clumping, transferring or flaking. Long, lush lashes begin with this luxe mascara that is formulated with organic shea butter and oils of grape and jojoba seed to help nourish and condition as it lengthens and defines. Velvety and smooth, it coats lashes gently and evenly without clumping, transferring, or flaking. Made for Young Delicate Skin Types. NO – Talc, Fragrance, Parabens, Phthalates, Sulfates, Mineral oil or Propylene Glycol",
             "rating" => null,
-            "texture_id" => "",
+            "texture_id" => null,
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/008/original/open-uri20180630-4-bk6ign?1530390362",
         ],
         [
             "id" => 1007,
-            "brand" => 9,
+            "brand_id" => 9,
             "name" => "Luminary Lip Crayon",
             "price" => "0.0",
             "price_sign" => "$",
@@ -1029,7 +1029,7 @@ return [
         ],
         [
             "id" => 1006,
-            "brand" => 9,
+            "brand_id" => 9,
             "name" => "Fearless Eyeliner",
             "price" => "0.0",
             "price_sign" => "$",
@@ -1047,7 +1047,7 @@ return [
         ],
         [
             "id" => 1005,
-            "brand" => 2,
+            "brand_id" => 2,
             "name" => "Liquid Eye Shadow",
             "price" => "9.95",
             "price_sign" => "$",
@@ -1066,7 +1066,7 @@ return [
         ],
         [
             "id" => 1004,
-            "brand" => 23,
+            "brand_id" => 23,
             "name" => "Stretch Concealer",
             "price" => "22.0",
             "price_sign" => "$",
@@ -1084,7 +1084,7 @@ return [
         ],
         [
             "id" => 1003,
-            "brand" => 23,
+            "brand_id" => 23,
             "name" => "Cloud Paint",
             "price" => "22.0",
             "price_sign" => "$",
@@ -1102,7 +1102,7 @@ return [
         ],
         [
             "id" => 1002,
-            "brand" => 23,
+            "brand_id" => 23,
             "name" => "Wowder",
             "price" => "27.0",
             "price_sign" => "$",
@@ -1120,7 +1120,7 @@ return [
         ],
         [
             "id" => 1001,
-            "brand" => 23,
+            "brand_id" => 23,
             "name" => "Haloscope",
             "price" => "27.0",
             "price_sign" => "$",
@@ -1138,7 +1138,7 @@ return [
         ],
         [
             "id" => 1000,
-            "brand" => 23,
+            "brand_id" => 23,
             "name" => "Perfecting Skin Tint",
             "price" => "32.0",
             "price_sign" => "$",
