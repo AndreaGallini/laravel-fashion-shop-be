@@ -26,3 +26,5 @@ Route::get('products/{slug}', [ProductController::class, 'show']);
 
 Route::get('categories', [CategoryController::class, 'index']);
 Route::get('categories/{slug}', [CategoryController::class, 'show']);
+
+Route::post('/contacts', [LeadController::class, 'store']);
