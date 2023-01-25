@@ -31,6 +31,12 @@ class ProductSeeder extends Seeder
             $newproduct->texture_id = $product['texture_id'];
             $newproduct->brand_id = $product['brand_id'];
             $newproduct->save();
+
+            $colors = [4, 5, 13, 16, 32];
+            $tags = [1, 2, 3, 4, 5];
+
+            $newproduct->colors()->sync($colors);
+            $newproduct->tags()->sync($tags);
         }
     }
     public static function storeimage($img)

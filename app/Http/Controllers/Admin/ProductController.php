@@ -120,6 +120,7 @@ class ProductController extends Controller
         }
         $product->update($data);
 
+        // dd($request->colors);
         if($request->has('tags')){
             $product->tags()->sync($request->tags);
         } else {

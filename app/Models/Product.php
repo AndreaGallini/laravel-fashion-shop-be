@@ -37,11 +37,11 @@ class Product extends Model
 
     public function tags(): BelongsToMany
     {
-        return $this->belongsToMany(Tag::class);
+        return $this->belongsToMany(Tag::class, 'product_tag', 'product_id', 'tag_id');
     }
 
     public function colors(): BelongsToMany
     {
-        return $this->belongsToMany(Color::class);
+        return $this->belongsToMany(Color::class, 'color_product', 'product_id', 'color_id');
     }
 }
