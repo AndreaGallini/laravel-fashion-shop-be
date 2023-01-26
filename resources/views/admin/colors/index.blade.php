@@ -2,6 +2,7 @@
 @section('content')
     <section id="admin-index">
         @include('partials.admin.navbar')
+
         <div id="admin-many" class="container p-5">
             @if (session()->has('message'))
                 <div class="alert alert-success mb-3 mt-3">
