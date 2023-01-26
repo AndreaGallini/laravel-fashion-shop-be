@@ -1172,25 +1172,7 @@ return [
             "category_id" => 8,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/999/original/open-uri20171227-4-2ul0s6?1514341420",
         ],
-        [
-            "id" => 998,
-            "brand_id" => 38,
-            "name" => "Fly With Me Mascara",
-            "price" => "9.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd5e25f68/ProductImages/Eyes/Fly_With_Me_Mascara/800897141431_flywithmemascara_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/fly-with-me-mascara/NYX_018.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Your lashes will reach new heights with our Fly With Me Mascara. Lashes appear more dramatic making average lashes look super-long and ultra dark. Pros adore the intense yet lightweight coverage and how the unique volumizing wand boosts even the wimpiest of the eyelashes.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/998/original/data?1514082787",
-        ],
+
         [
             "id" => 997,
             "brand_id" => 38,
@@ -1342,25 +1324,7 @@ return [
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/990/original/open-uri20171224-4-1xdrjhl?1514082780",
         ],
-        [
-            "id" => 989,
-            "brand_id" => 38,
-            "name" => "Color Mascara",
-            "price" => "7.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8044f7e7/ProductImages/Eyes/Color_Mascara/colormascara_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/color-mascara/NYX_124.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Think beyond the ordinary with these fun and vibrant new mascara options from NYX Professional Makeup. Packed full of pigments and delivering on the promise of intense color payoff, everyone will notice your fabulous eye lash color. Go for it - we dare you to try all eight shades!",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/989/original/open-uri20171224-4-1gh72x0?1514082779",
-        ],
+
         [
             "id" => 988,
             "brand_id" => 38,
@@ -1399,25 +1363,7 @@ return [
             "category_id" => 3,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/987/original/data?1514082776",
         ],
-        [
-            "id" => 986,
-            "brand_id" => 38,
-            "name" => "Eyebrow Kit With Stencil",
-            "price" => "15.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2636bb00/ProductImages/Eyes/Eyebrow_Kit_with_Stencils/800897142957_eyebrowkitstencil_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/eyebrow-kit-with-stencil/NYX_033.html?cgid=brows",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Our all-in-one eyebrow kit has everything you need to keep your brows looking on point. The kit includes 4 universally flattering shades for all brow tones a slanted eyebrow brush an eyebrow comb and 3 different stencils to help you get the perfect shape for your face. Now you can fill define and shape your brows like never before!",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 3,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/986/original/open-uri20171224-4-14z5x4y?1514082775",
-        ],
+
         [
             "id" => 985,
             "brand_id" => 38,
@@ -1715,5 +1661,362 @@ return [
             "category_id" => 6,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/932/original/open-uri20171224-4-tpsvw?1514082680",
         ],
+
+        [
+            "id" => 730,
+            "brand_id" => 18,
+            "name" => "Matte",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/v6_packshots_sku_pdg%252FPDG_Y0002959-F000355999.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000375999-couture-colour-long-wear-nail-lacquer.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Discover the new-generation Dior Vernis and its ingenious formula that accentuates the gel effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 10,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:23:26.195Z",
+            "updated_at" => "2017-12-23T20:59:00.800Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/730.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/730/original/data?1514062740",
+        ],
+        [
+            "id" => 729,
+            "brand_id" => 18,
+            "name" => "Poison Metal",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003559_F000355979.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000355979-couture-colour-long-wear-nail-lacquer.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Discover the new-generation Dior Vernis and its ingenious formula that accentuates the gel effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 10,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/729/original/data?1514062740",
+        ],
+        [
+            "id" => 716,
+            "brand_id" => 18,
+            "name" => "Sourcils Poudre",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0746300.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyebrows/pr-eyebrows-y0746300_f074630093-powder-eyebrow-pencil-with-a-brush-and-sharpener.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The finish of a powder combined with the powerful definition of a wax in a professional pencil that gives a denser shape to the brow line for a naturally structured effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:23:12.519Z",
+            "updated_at" => "2017-12-23T20:58:57.438Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/716.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/716/original/open-uri20171223-4-lr6t41?1514062737"
+        ],
+        [
+            "id" => 692,
+            "brand_id" => 18,
+            "name" => "5 COULEURS",
+            "price" => "45.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148410.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148410-high-fidelity-colours-effects-eyeshadow-palette.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "An icon of the Dior look and a concentration of expertise in terms of colour and visual effects, the 5 Couleurs palette is reinvented. More creative than ever, with stronger pigments and richer effects, it allows women to explore every facet of colour and express every aspect of their personality. With the 5 Couleurs palette, self-expression is unlimited, creativity is unleashed and colour is more audacious than ever.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/692/original/open-uri20171223-4-1ia7ngs?1514062731",
+        ],
+        [
+            "id" => 691,
+            "brand_id" => 18,
+            "name" => "Diorshow Mono",
+            "price" => "25.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0147160_f014716623.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0147160-professional-eye-shadow-spectacular-effects-long-wear.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Diorshow Mono, the eyeshadow used by the Dior makeup artists, was inspired by the fabric textures of the brand\'s fashions - matte, silky, ultra-glittery and lamé - and features super-saturated hues to deck the eyes in long-lasting colors with radiant finishes.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/691/original/open-uri20171223-4-1mp005c?1514062731",
+        ],
+        [
+            "id" => 690,
+            "brand_id" => 18,
+            "name" => "Diorshow Fusion Mono Matte",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148310_F014831761_012016.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148310-long-wear-professional-eyeshadow.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "A weightless texture that blends into the skin and dresses the eye in velvety colour. In a single step, it creates an even and intense matte finish for a professional makeup effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/690/original/open-uri20171223-4-13ulolv?1514062730",
+        ],
+        [
+            "id" => 689,
+            "brand_id" => 18,
+            "name" => "Diorshow Fusion Mono",
+            "price" => "25.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148300_F014830821_012016.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148300-long-wear-professional-mirror-shine-eyeshadow.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "A weightless texture that blends into the skin and dresses the eye in velvety colour. In a single step, it creates an even and intense matte finish for a professional makeup effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/689/original/open-uri20171223-4-b1imkg?1514062730",
+        ],
+        [
+            "id" => 686,
+            "brand_id" => 18,
+            "name" => "DIORBLUSH PRECIOUS ROCKS - Christmas 2017 Limited Edition",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The new limited-edition Diorblush showcases every facet of the Precious Rocks collection. Printed with a prismatic motif that reflects that of a precious stone, its sheer, peach colour blends seamlessly with your skin to deliver a fresh, crystal-clear complexion.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/686/original/open-uri20171223-4-msf54n?1514062728",
+        ],
+        [
+            "id" => 685,
+            "brand_id" => 18,
+            "name" => "Diorblush Sculpt",
+            "price" => "32.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0716250.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0716250_f071625001-professional-contouring-powder-blush.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The first contouring blush by Dior, Diorblush Sculpt allows you to easily redefine the face’s structure and volumes with the precision of a makeup artist thanks to its two contrasting shades.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/685/original/open-uri20171223-4-1p1tlsw?1514062728",
+        ],
+        [
+            "id" => 683,
+            "brand_id" => 18,
+            "name" => "Diorskin Nude Air Tan",
+            "price" => "36.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0712400.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/healthy-glow-makeup/pr-sunmakeup-y0712400_f071240001-healthy-glow-sun-powder.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Diorskin Nude Air bronzing powders warm the original skin tone and let the skin breathe for the continual radiant beauty of a sun-kissed healthy glow. Choose the perfect shade of tan, in matte or satiny.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/683/original/open-uri20171223-4-1nzl361?1514062729",
+        ],
+        [
+            "id" => 673,
+            "brand_id" => 18,
+            "name" => "Dior Addict Lip Maximizer",
+            "price" => "25.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028670.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0028670_f002867001-collagen-active-lip-gloss.html",
+            "website_link" => "https://www.dior.com",
+            "description" => "The first instant-volume gloss from Dior Backstage.",
+            "rating" => null,
+            "texture_id" => 11,
+            "category_id" => 8,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:22:18.123Z",
+            "updated_at" => "2017-12-23T20:58:45.684Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/673.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/673/original/open-uri20171223-4-sia3yz?1514062725",
+        ],
+        [
+            "id" => 672,
+            "brand_id" => 18,
+            "name" => "Dior Addict Ultra-Gloss",
+            "price" => "24.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0285300.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0285300_f028530004-sensational-mirror-shine-hydra-plumping-volume.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "More than just a gloss, Dior Addict Ultra-Gloss is a lip plumper and gloss all in one.",
+            "rating" => null,
+            "texture_id" => 11,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/672/original/open-uri20171223-4-1jr6g64?1514062725",
+        ],
+        [
+            "id" => 669,
+            "brand_id" => 18,
+            "name" => "DIORIFIC KHÔL",
+            "price" => "29.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027647_F002764751.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0027647_f002764341-powder-lipstick-ultra-pigmented-long-wear-intensity.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "For the first time at Dior, Diorific is now available as Lip Khôl designed to adorn your lips in intense colour with a powdery, matte finish.",
+            "rating" => null,
+            "texture_id" => 10,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/669/original/open-uri20171223-4-1r1wmbn?1514062724",
+        ],
+        [
+            "id" => 640,
+            "brand_id" => 5,
+            "name" => "rockateur",
+            "price" => "36.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/rockateur-component0_0.png?itok=v8BJdMkW",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/rockateur",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "famously provocative cheek powder",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/640/original/open-uri20171223-4-11ws6ld?1514061764",
+        ],
+        [
+            "id" => 639,
+            "brand_id" => 5,
+            "name" => "cheekathon bronzer & blush palette",
+            "price" => "75.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/cheekathon-blush-kit-component.png?itok=6ih0smf9",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/cheekathon",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "“kick up your cheeks” blush kit",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/639/original/open-uri20171223-4-1uw9qxu?1514061763",
+        ],
+        [
+            "id" => 623,
+            "brand_id" => 5,
+            "name" => "BIG sexy lipstick set",
+            "price" => "38.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-big-sexy-lip-kit-component_0.png?itok=1CmB3i_p",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/big-sexy-lipstick-set",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "4 all-in-one lipstick and liners",
+            "rating" => null,
+            "texture_id" => 10,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/623/original/open-uri20171223-4-15ajw4w?1514061759",
+        ],
+        [
+            "id" => 528,
+            "brand_id" => 51,
+            "name" => "Mini Full Exposure Palette",
+            "price" => "25.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56725_388x396_0.jpg",
+            "product_link" =>
+            "http://www.smashbox.com/product/6029/31330/eyes/eye-shadow/mini-full-exposure-palette/new",
+            "website_link" => "http://www.smashbox.com/",
+            "description" =>
+            "We see so many different eyes on set that our L.A. photo studio pros created this must-have range of neutrals to match any and all of them—yours included.Includes:8 universally awesome neutral shades—from nudes to blacks—in the most blendable formulasLong-wearing shimmers and velvety smooth mattes; turn up or tone down the lusterWe see so many different eyes on set that our L.A. photo studio pros created this must-have range of neutrals to match any and all of them—yours included.Includes:8 universally awesome neutral shades—from nudes to blacks—in the most blendable formulasLong-wearing shimmers and velvety smooth mattes; turn up or tone down the luster",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/528/original/open-uri20171223-4-qdeca8?1514062151",
+        ],
+        [
+            "id" => 468,
+            "brand_id" => 31,
+            "name" => "Maybelline Face Studio Master Hi-Light Light Booster Blush",
+            "price" => "14.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/4621032a92cb428ad640c105b944b39c_ra,w158,h184_pa,w158,h184.png",
+            "product_link" =>
+            "https://well.ca/products/maybelline-face-studio-master_88831.html",
+            "website_link" => "https://well.ca",
+            "description" => "Maybelline Face Studio Master Hi-Light Light Boosting blush formula has an expert balance of shade + shimmer illuminator for natural glow. Skin goes soft-lit with zero glitz. For Best Results: Brush over all shades in palette and gently sweep over cheekbones, brow bones, and temples, or anywhere light naturally touches the face.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/468/original/open-uri20171223-4-sz64re?1514063327",
+        ],
+
     ]
 ];
