@@ -1192,44 +1192,7 @@ return [
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/997/original/data?1514082787",
         ],
-        [
-            "id" => 996,
-            "brand_id" => 38,
-            "name" => "Proof It! Waterproof Mascara Top Coat",
-            "price" => "7.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw31cb2063/ProductImages/Eyes/Proof_It_Waterproof_Mascara_Top_Coat/proofitwaterproofmascaratopcoat_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/proof-it-waterproof-mascara-top-coat/NYX_179.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "With just two swipes our lash top coat transforms your favorite mascara from being conventional to waterproof! Our formula helps prevent clumping and leaves lashes looking gorgeous.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/996/original/data?1514082786",
-        ],
-        [
-            "id" => 995,
-            "brand_id" => 38,
-            "name" => "Big & Loud Lash Primer",
-            "price" => "7.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa4949d3a/ProductImages/Eyes/Big_And_Loud_Lash_Primer/bigandloudlashprimer_alt1.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/big-and-loud-lash-primer/NYX_166.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Give your lashes a boost with our Big & Loud Lash Primer. It works hand in hand with your favorite NYX Professional Makeup mascara to enhance the length and volume of lashes.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/995/original/data?1514082785",
-        ],
+
         [
             "id" => 994,
             "brand_id" => 38,
@@ -1248,63 +1211,8 @@ return [
             "category_id" => 9,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/994/original/open-uri20171224-4-1shcfum?1514082785",
         ],
-        [
-            "id" => 993,
-            "brand_id" => 38,
-            "name" => "Doll Eye Mascara",
-            "price" => "9.5",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2e036256/ProductImages/Eyes/Doll_Eye_Mascara/800897123543_dolleyemascara_longlash_black_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/doll-eye-mascara/NYX_017.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Hello, dollface! For irresistibly fluttery eyelashes, try this mascara on for size. Doll Eye Mascara uses a unique blend of natural oil and nylon fibers to extend lashes to almost faux proportions. Choose from our Doll Eye Mascara in Long Lash, Volume or Waterproof.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/993/original/data?1514082784",
-        ],
-        [
-            "id" => 992,
-            "brand_id" => 38,
-            "name" => "The Skinny Mascara",
-            "price" => "7.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcb91e11f/ProductImages/Eyes/The_Skinny_Mascara/theskinnymascara_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/the-skinny-mascara/NYX_183.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Our ultra-skinny mascara brush is perfect for coating hard to reach lashes from root to tipâ€”even along the bottom lash line! Finally the smallest, thinnest lashes can get extra special attention too. The water resistant formula and micro brush work together to create the appearance of long beautifully defined lashes.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/992/original/data?1514082782",
-        ],
-        [
-            "id" => 991,
-            "brand_id" => 38,
-            "name" => "Worth the Hype Volumizing & Lengthening Mascara",
-            "price" => "8.0",
-            "price_sign" => "$",
-            "currency" => "USD",
-            "image_link" =>
-            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb654afff/ProductImages/2018/Eyes/Worth_The_Hype_Volumizing_Mascara/800897140250_worththehypevolumizingmascara_main.jpg?sw=390&sh=390&sm=fit",
-            "product_link" =>
-            "https://www.nyxcosmetics.com/worth-the-hype-volumizing-lengthening-mascara/NYX_590.html?cgid=mascara",
-            "website_link" => "https://www.nyxcosmetics.com",
-            "description" =>
-            "Take our word for it: if you want your lashes to look darker, fuller and lethally gorgeous all day long, then our new Worth the Hype Volumizing & Lengthening Mascara is your jam. A breeze to apply and comfortable to wear, this buildable formula actually does what it promises, making it “worth the hype” in every which way. It also features a brush that tapers at the tip, so you can brush, build, and lengthen even the littlest baby lashes at the inner corners of your eyes.",
-            "rating" => null,
-            "texture_id" => null,
-            "category_id" => 9,
-            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/991/original/data?1514082782",
-        ],
+
+
         [
             "id" => 990,
             "brand_id" => 38,
@@ -2017,6 +1925,117 @@ return [
             "category_id" => 1,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/468/original/open-uri20171223-4-sz64re?1514063327",
         ],
-
+        [
+            "id" => 459,
+            "brand_id" => 33,
+            "name" => "Mineral Fusion Blush",
+            "price" => "32.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/f1c6dea6717aeaa8796a5f62992d8979_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/mineral-fusion-blush_91619.html",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "Mineral Fusion Blush features luxuriously silky, triple-milled minerals that offer a natural flush of color to brighten the complexion and create a healthy, youthful glow. Includes a powerful blend of Pomegranate, White Tea, Red Tea and Sea Kelp, plus Vitamins C and E that defend skin against free radical damage for a healthy radiance. Free of Gluten, Parabens, Artificial Colors, Fragrances and Talc. Never-tested on animals. Hypo-allergenic.Ingredients: Mica, Zinc Stearate, Octyldodecyl Stearoyl Stearate, Titanium Dioxide (CI 77891), Caprylic/Capric Triglyceride, Tocopheryl Acetate (Vitamin E), Ascorbyl Palmitate (Vitamin C), Camellia Sinensis (White Tea) Leaf Extract, Aspalathus Linearis (Rooibos Red Tea) Leaf Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grape) Seed Extract, Laminaria Ochroleuca (Sea Kelp) Extract, Aloe Barbadensis (Aloe Vera) Extract, Lauroyl Lysine, Sambucus Nigra Fruit (Elderberry), Phenoxyethanol. MAY CONTAIN (+/-): Iron Oxides (CI 77491, 77492, 77499), Carmine (CI 75470), Ultramarine (CI 77007), Manganese Violet (CI 77742). ",
+            "rating" => 5,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/459/original/data?1514063321",
+        ],
+        [
+            "id" => 458,
+            "brand_id" => 15,
+            "name" => "CoverGirl Clean Glow Blush ",
+            "price" => "8.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/bb0b0c2057205b8e39823c5c7fc6af45_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/covergirl-clean-glow-blush_78621.html",
+            "website_link" => "https://well.ca",
+            "description" => "Complete your Clean® look with a flush of lightweight, blendable color. This versatile 3-in-1 multi-shade compact lets you customize your color to create a radiant effect. Use just one color or all three!Features: 3-in-1 multi-shade compactLightweight, blendable flush of colorClean and natural lookHow to Apply:  Begin with the contour, or darkest, shade in your palette and apply to the hollow space below your cheekbones. Apply the medium shade to the apples of your cheeks and sweep upwards toward the hairline. For a youthful glow, highlight the tops of your cheeks with the lightest shade.",
+            "rating" => 5,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/458/original/data?1514063320",
+        ],
+        [
+            "id" => 456,
+            "brand_id" => 42,
+            "name" => "Physicians Formula Nude Wear Glowing Nude Blush",
+            "price" => "15.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/8df6f68abe9f6bf47546254706f54e37_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/physicians-formula-nude-wear-glowing_90087.html",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "This natural, luxurious blush is so lightweight you\'ll never even feel it. Sheer coverage with a hint of luminosity delivers a lit-from-within blushing glow.Airy formula boosts skins natural luminosity, and allows skin’s natural radiance and color to shine through. A perfect blend of blush and complexion boosting tones brighten and enhance skin tone while adding a touch of naturally radiant color.Hypoallergenic. Fragrance-Free. Gluten Free. Paraben-Free. Non-Comedogenic. Dermatologist approved. ",
+            "rating" => 4,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/456/original/open-uri20171223-4-c79x3p?1514062292",
+        ],
+        [
+            "id" => 274,
+            "brand_id" => 40,
+            "name" => "Pacifica Natural Minerals Solar Complete Color Mineral Palette",
+            "price" => "60.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/baf991d5944d310d8c337423486b77ea_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/pacifica-natural-minerals-solar_86675.html?cat=328",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "All you need to look naturally gorgeous!  The Solar Complete Mineral Palette is a full set of eye shadows, blush, bronzer and coconut highlighters all in one beautiful, recyclable palette.  Each natural mineral shadow is highly pigmented and so smooth it applies like a cream.  Plus the new blush and bronzer are infused with coconut, apply easily and can be layered to build color.  The coconut highlighters are in two new shades as well as the popular Island Rose and can be used on cheekbones, eye brow bones, and even the lips to provide the perfect amount of natural brightness.  With a variety of colors, many looks are achievable so you can be natural by day or smokin\' hot by night.Colours Included:Eye shades: Neptune, Glow, Treasure, Coral, Mermaid Aqua, SandalwoodCheek shades: Flushed, BronzedHighlighter shades: Gold Dust, Island Rose, Pink Opal",
+            "rating" => 4.9,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/274/original/data?1514063328",
+        ],
+        [
+            "id" => 430,
+            "brand_id" => 10,
+            "name" => "Cargo Cosmetics BeachBlush ",
+            "price" => "32.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/62507a6df269ba7ecba37157bc4bc3e9_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/cargo-cosmetics-beachblush_87477.html?cat=328",
+            "website_link" => "https://well.ca",
+            "description" => "Imagine the perfect marriage of blush and bronzer!  Four harmonious shades work together to provide perfectly flushed cheeks with a sun-drenched glow. Golden goddess effects in a flash! Cargo Cosmetics\' BeachBlush™ has earned its status as one of Cargo\'s most iconic products and even appeared as a question on Jeopardy!  Packaged in Cargo\'s signature tin with generous surface area for easy swirling. This BeachBlush in Echo Beach is a warm berry bronze color medley.Features: Four harmonious shades in one tin work together to provide the perfect balance of color for all skin tones, avoiding the yellow look of many bronzers Light reflective shimmer particles add a radiant glow to the skin and soften the appearance of fine linesGenerously packaged with in Cargo\'s signature tin this medley of four distinct, multi-tonal bronzing and   blush shades gives a beautiful and distinctive look to the product, unique from Cargo’s other blush and bronzing productsBeachBlush™ is the perfect complement to both your bronzing powder and your blushHow to Use: Apply using a fluff brushTo optimize all four shades in BeachBlush swirl the brush over all four color bars, combining the different tones to create one harmonious hueApply to the cheekbone area, dust lightly onto the apples of the cheeks as well as any areas of the face that would be naturally kissed by the sun Ingredients: Mica, Dimethicone, Zinc Stearate, Ethylhexyl Palmitate, Octyldodecyl Steaoryl Stearate, Octyldodecanol, Potassium Sorbate, Sodium Benzoate, Benzyl Alcohol, BHT, Tin Oxide May Contain (+/-): CI 77891 (Titanium Dioxide), CI 77491 / CI 77492 / CI 77499 (Iron Oxides), CI 75470 (Carmine), CI 45410 (Red 27 Lake), CI 19140 (Yellow 5 Lake), CI 15850 (Red 6 Lake).",
+            "rating" => 5,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/430/original/data?1514063323",
+        ],
+        [
+            "id" => 784,
+            "brand_id" => 12,
+            "name" => "Up-lighting&trade; Liquid Illuminator",
+            "price" => "28.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.clinique.com/media/export/cms/products/181x209/clq_6L1X_181x209.png",
+            "product_link" =>
+            "https://www.clinique.com/product/1594/6429/makeup/bronzers/up-lighting-liquid-illuminator",
+            "website_link" => "https://www.clinique.com",
+            "description" =>
+            "Sheer, lightweight liquid instantly illuminates skin. Highlights and contours cheeks, brow bones, or gives face an allover glow. Glides on to create a natural-looking luminosity. Perfect for all skin types and tones. Oil-free.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/784/original/data?1514072336",
+        ],
     ]
 ];
