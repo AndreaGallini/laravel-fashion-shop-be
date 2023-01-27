@@ -22,7 +22,7 @@ class ProductController extends Controller
 
     public function show($slug)
     {
-        $product = Product::where('slug', $slug)->with('brand', 'category', 'texture')->first();
+        $product = Product::where('slug', $slug)->with('brand', 'category', 'texture', 'tags', 'colors')->first();
         if ($product) {
             return response()->json([
                 'success' => true,
