@@ -450,7 +450,7 @@ return [
             "id" => 1041,
             "brand_id" => 57,
             "name" => "Liquid Liner",
-            "price" => "0.0",
+            "price" => "9.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Zorah-Biocosmetiques-Liquid-Liner.png",
@@ -466,7 +466,7 @@ return [
             "id" => 1040,
             "brand_id" => 57,
             "name" => "Eyeshadow",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/02/Ombre-Amazonie-CC.png",
@@ -482,7 +482,7 @@ return [
             "id" => 1039,
             "brand_id" => 54,
             "name" => " Realist Invisible Setting Powder",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/w3llpeople-Realist-Invisible-Setting-Powder.jpg",
@@ -498,7 +498,7 @@ return [
             "id" => 1038,
             "brand_id" => 47,
             "name" => "B Smudged",
-            "price" => "0.0",
+            "price" => "12.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Smudged-1.jpg",
@@ -514,7 +514,7 @@ return [
             "id" => 1037,
             "brand_id" => 47,
             "name" => "B Glossy Lip Gloss",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Glossy-Lip-Gloss.jpg",
@@ -530,7 +530,7 @@ return [
             "id" => 1036,
             "brand_id" => 45,
             "name" => "Multi Purpose Powder - Blush \u0026 Eye",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Blush-_-Eye-1.jpg",
@@ -546,7 +546,7 @@ return [
             "id" => 1033,
             "brand_id" => 45,
             "name" => "Pressed Powder Foundation",
-            "price" => "0.0",
+            "price" => "15.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Eye-Shadow-Face-1.jpg",
@@ -562,7 +562,7 @@ return [
             "id" => 1032,
             "brand_id" => 45,
             "name" => "Bronzer - loose",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
@@ -578,7 +578,7 @@ return [
             "id" => 1031,
             "brand_id" => 45,
             "name" => "Bronzer - pressed",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
@@ -595,7 +595,7 @@ return [
             "id" => 1030,
             "brand_id" => 41,
             "name" => "Lip Gloss",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/csm/sunset-bronze-pennylaneorganics1.jpg",
@@ -611,7 +611,7 @@ return [
             "id" => 1029,
             "brand_id" => 37,
             "name" => "Amalia",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/2018/06/Nudus-Amalia.jpg",
@@ -627,7 +627,7 @@ return [
             "id" => 1028,
             "brand_id" => 30,
             "name" => "Pressed Foundation",
-            "price" => "0.0",
+            "price" => "18.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/csm/caramel_1024x1024_e5fbf151-0cfd-42c9-a5ec-f49d6104bcbc1.jpg",
@@ -643,7 +643,7 @@ return [
             "id" => 1027,
             "brand_id" => 30,
             "name" => "Pressed Eye Shadow",
-            "price" => "0.0",
+            "price" => "12.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -663,7 +663,7 @@ return [
             "id" => 1026,
             "brand_id" => 30,
             "name" => "Mineral Blush",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -683,7 +683,7 @@ return [
             "id" => 1025,
             "brand_id" => 30,
             "name" => "Perfect Lash Mascara",
-            "price" => "0.0",
+            "price" => "13.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -703,7 +703,7 @@ return [
             "id" => 1024,
             "brand_id" => 30,
             "name" => "Loose Mineral Eyeshadow",
-            "price" => "0.0",
+            "price" => "9.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -722,7 +722,7 @@ return [
             "id" => 1023,
             "brand_id" => 30,
             "name" => "Lipstick special",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -740,7 +740,7 @@ return [
             "id" => 1022,
             "brand_id" => 30,
             "name" => "Lip Gloss special",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" => "https://www.purpicks.com/wp-content/uploads/csm/Envy1.jpg",
@@ -757,7 +757,7 @@ return [
             "id" => 1021,
             "brand_id" => 30,
             "name" => "Gel Liner",
-            "price" => "0.0",
+            "price" => "8.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -775,7 +775,7 @@ return [
             "id" => 1020,
             "brand_id" => 30,
             "name" => "Eyeliner",
-            "price" => "0.0",
+            "price" => "6.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -793,7 +793,7 @@ return [
             "id" => 1019,
             "brand_id" => 28,
             "name" => "Mineral Eye Brow Liner Charcoal Brown",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -811,7 +811,7 @@ return [
             "id" => 1018,
             "brand_id" => 27,
             "name" => "Mascara",
-            "price" => "0.0",
+            "price" => "8.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -830,7 +830,7 @@ return [
             "id" => 1017,
             "brand_id" => 27,
             "name" => "Creme to Powder Blush",
-            "price" => "0.0",
+            "price" => "12.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -849,7 +849,7 @@ return [
             "id" => 1016,
             "brand_id" => 27,
             "name" => "Eye Shadow Palette Mesmerize",
-            "price" => "0.0",
+            "price" => "18.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -867,7 +867,7 @@ return [
             "id" => 1015,
             "brand_id" => 27,
             "name" => "Eye Shadow Palette Deluxe",
-            "price" => "0.0",
+            "price" => "20.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -885,7 +885,7 @@ return [
             "id" => 1014,
             "brand_id" => 27,
             "name" => "Eye Shadow Palette Smokey",
-            "price" => "0.0",
+            "price" => "20.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -903,7 +903,7 @@ return [
             "id" => 1013,
             "brand_id" => 27,
             "name" => "Eye Shadow Palette Seduction",
-            "price" => "0.0",
+            "price" => "20.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -921,7 +921,7 @@ return [
             "id" => 1012,
             "brand_id" => 27,
             "name" => "Eye Shadow Palette Cocoa",
-            "price" => "0.0",
+            "price" => "20.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -939,7 +939,7 @@ return [
             "id" => 1011,
             "brand_id" => 24,
             "name" => "Volumising Mascara",
-            "price" => "0.0",
+            "price" => "11.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -958,7 +958,7 @@ return [
             "id" => 1010,
             "brand_id" => 13,
             "name" => "Conch Lipstick",
-            "price" => "0.0",
+            "price" => "8.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -977,7 +977,7 @@ return [
             "id" => 1009,
             "brand_id" => 9,
             "name" => "Reflect Lip Gloss",
-            "price" => "0.0",
+            "price" => "9.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -995,7 +995,7 @@ return [
             "id" => 1008,
             "brand_id" => 9,
             "name" => "Muse Mascara",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -1013,7 +1013,7 @@ return [
             "id" => 1007,
             "brand_id" => 9,
             "name" => "Luminary Lip Crayon",
-            "price" => "0.0",
+            "price" => "7.9",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -1031,7 +1031,7 @@ return [
             "id" => 1006,
             "brand_id" => 9,
             "name" => "Fearless Eyeliner",
-            "price" => "0.0",
+            "price" => "10.0",
             "price_sign" => "$",
             "currency" => "USD",
             "image_link" =>
@@ -1153,6 +1153,889 @@ return [
             "texture_id" => null,
             "category_id" => 6,
             "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/000/original/open-uri20171227-4-14arcgf?1514342096",
+        ],
+        [
+            "id" => 999,
+            "brand_id" => 23,
+            "name" => "Generation G",
+            "price" => "20.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://static-assets.glossier.com/production/spree/images/attachments/000/001/239/portrait_normal/GenG2.jpg?1487709747",
+            "product_link" => "https://www.glossier.com/products/generation-g",
+            "website_link" => "https://www.glossier.com",
+            "description" =>
+            "Generation G is a new kind of lip color that gives the look and finish of just-blotted lipstick, without the blot. We’ve created a short list of the six most important shades, with dialed-down pigment loads for a casual look: Zip, Leo, Crush, and Jam, along with the super subtle Cake and Like, which give some oomph to lighter lip tones. They’re lipsticks that adapt to you, not the other way around, so they\'ll appear a bit different on everyone as your natural lip color shows through. The effect? Diffused, matte goodness—just swipe it on.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/999/original/open-uri20171227-4-2ul0s6?1514341420",
+        ],
+
+        [
+            "id" => 997,
+            "brand_id" => 38,
+            "name" => "Propel My Eyes Mascara",
+            "price" => "9.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8068dbc4/ProductImages/Eyes/Propel_My_Eyes_Mascara/propelmyeyesmascara_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/propel-my-eyes-mascara/NYX_020.html?cgid=mascara",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Get ready for aerodynamic lashes! The brush boasts a four-way pinwheel design that lifts lashes up and coats them in a conditioning formula enriched with Pro Vitamin B5 D-Panthenol and Green Tea Extract. Take it for a spin and enjoy!",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 9,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/997/original/data?1514082787",
+        ],
+
+        [
+            "id" => 994,
+            "brand_id" => 38,
+            "name" => "Double Stacked Mascara",
+            "price" => "15.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw255fbdae/ProductImages/2016/Eyes/Double_Stacked_Mascara/doublestackedmascara_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/double-stacked-mascara/NYX_341.html?cgid=mascara",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" => "",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 9,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/994/original/open-uri20171224-4-1shcfum?1514082785",
+        ],
+
+
+        [
+            "id" => 990,
+            "brand_id" => 38,
+            "name" => "Boudoir Mascara Collection",
+            "price" => "6.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda9f6cec/ProductImages/Eyes/Boudoir_Mascara_Collection/boudoirmascaracollection_main.jpg.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/boudoir-mascara-collection/NYX_060.html?cgid=mascara",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Every powder room should have our luxurious Boudoir Mascara Collection available in 7 elite formulas. Whether you want to darken, amp up the volume, or lengthen your lashes - we have a mascara that meets all your needs.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 9,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/990/original/open-uri20171224-4-1xdrjhl?1514082780",
+        ],
+
+        [
+            "id" => 988,
+            "brand_id" => 38,
+            "name" => "Super Luscious Mascara",
+            "price" => "7.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw97d7c9f2/ProductImages/Eyes/Super_Luscious_Mascara/superlusciousmascara_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/super-luscious-mascara/NYX_122.html?cgid=mascara",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Everyone will notice your gorgeous lashes with our Super Luscious Mascara Collection. Featuring seven different brushes, each fragrance-free mascara has something unique to offer. (Plus, they’re formulated with keratins, vitamins and naturally-derived waxes to nourish lashes!) There’s a Super Luscious Mascara for your essential lash looks.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 9,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/988/original/open-uri20171224-4-1lbpgue?1514082777",
+        ],
+        [
+            "id" => 987,
+            "brand_id" => 38,
+            "name" => "Eyebrow Marker",
+            "price" => "9.75",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwe10bfffa/ProductImages/Eyes/Eyebrow_Marker/eyebrowmarker_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/eyebrow-marker/NYX_034.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Sculpt fill in and enhance your natural eyebrows with our felt-tip Eyebrow Marker. The color resists smearing and smudging and wears all day long.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/987/original/data?1514082776",
+        ],
+
+        [
+            "id" => 985,
+            "brand_id" => 38,
+            "name" => "Eyebrow Push-Up Bra",
+            "price" => "10.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwadba3ae6/ProductImages/Eyes/Eyebrow_Push_Up_Bra/eyebrowpushupbra_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/eyebrow-push-up-bra/NYX_030.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Play up your natural assets with this dual-sided pencil that delivers sensual eyebrows in just a few minutes. Use the universally flattering brow pencil to draw and fill in your arches and the highlighting end to lift and brighten. Like the LBD of pencils the effect is captivating and undeniably sexy.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "tag_list" => [],
+            "created_at" => "2017-12-24T02:32:55.489Z",
+            "updated_at" => "2017-12-24T02:32:55.884Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/985.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/985/original/data?1514082775",
+        ],
+        [
+            "id" => 984,
+            "brand_id" => 38,
+            "name" => "3-Dimensional Brow Marker",
+            "price" => "10.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1e63b16f/ProductImages/2017/Eyes/3Dimensional_Brow_Marker/3dimensionalbrowmarker_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/3-dimensional-brow-marker/NYX_499.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" => "",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/984/original/open-uri20171224-4-1uh3nw7?1514082773",
+        ],
+        [
+            "id" => 983,
+            "brand_id" => 38,
+            "name" => "Eyebrow Shaper",
+            "price" => "8.75",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7bb4049d/ProductImages/Eyes/Eyebrow_Shaper/eyebrowshaper_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/eyebrow-shaper/NYX_031.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Tame unruly eyebrows with this ingenious wax pencil. The blend of waxes is enriched with Vitamin E and leaves arches in tip-top condition and impeccable shape with just a few strokes.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/983/original/data?1514082773",
+        ],
+        [
+            "id" => 982,
+            "brand_id" => 38,
+            "name" => "Build \'Em Up Brow Powder",
+            "price" => "8.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw837424ec/ProductImages/2017/Eyes/Build_Em_Up_Brow_Powder/buildemupbrowpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/build-em-up-brow-powder/NYX_446.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" => "",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "tag_list" => [],
+            "created_at" => "2017-12-24T02:32:52.257Z",
+            "updated_at" => "2017-12-24T02:32:52.646Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/982.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/982/original/open-uri20171224-4-15afdg3?1514082772",
+        ],
+        [
+            "id" => 981,
+            "brand_id" => 38,
+            "name" => "3-in-1 Brow Pencil",
+            "price" => "13.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw840d556c/ProductImages/2017/Eyes/3_in_1_Brow_Pencil/3in1browpencil_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/3-in-1-brow-pencil/NYX_407.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "One unbeatable brow beautifier, three go-to goodies. Our versatile 3-in-1 Brow includes everything you need to build exquisite arches. A retractable pencil, Powder, and brow mascara, available in 10 pigmented shades. Achieve eyebrows that are as natural-looking or bold as you desire by applying these essentials alone or together. To combine ’em all, simply outline with the pencil and fill in with the Powder. Complete the look by setting your brows with a swipe of mascara.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/981/original/open-uri20171224-4-1i8mko9?1514082770",
+        ],
+        [
+            "id" => 980,
+            "brand_id" => 38,
+            "name" => "Proof It! Waterproof Eyebrow Primer",
+            "price" => "7.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa61027e6/ProductImages/Eyes/Proof_It_Waterproof_Eyebrow_Primer/proofitwaterproofeyebrowprimer_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/proof-it-waterproof-eyebrow-primer/NYX_153.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Smooth and conditioning our clear eyebrow gel sets your brows in place all day, rain or shine. Apply over brows before shaping with powder to keep them in control. Our formulation was made specially formulated for thin sparse brows.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/980/original/data?1514082769",
+        ],
+        [
+            "id" => 979,
+            "brand_id" => 38,
+            "name" => "Eyebrow Powder Pencil",
+            "price" => "6.5",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw85601149/ProductImages/2017/Eyes/Eyebrow_Powder_Pencil/eyebrowpowderpencil_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/eyebrow-powder-pencil/NYX_408.html?cgid=brows",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Close your eyes and picture the perfect brows. Are they defined, yet delicate? Create the brows of this daydream with the brand new Eyebrow Powder Pencil. Our unique pencil’s superfine texture provides a powdery-soft, matte finish. Put the finishing touches on your arches by using the included spoolie brush to smooth out the rich color.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/979/original/open-uri20171224-4-1wo69r1?1514082766",
+        ],
+
+
+
+        [
+            "id" => 939,
+            "brand_id" => 38,
+            "name" => "SFX Setting Powder",
+            "price" => "10.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd3ce6c29/ProductImages/2016/More/SFX_Setting_Powder/sfxsettingpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/sfx-setting-powder/NYX_391.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" => "",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/939/original/open-uri20171224-4-1mv4cht?1514082691",
+        ],
+        [
+            "id" => 938,
+            "brand_id" => 38,
+            "name" => "Holographic Halo Finishing Powder",
+            "price" => "12.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2945b62d/ProductImages/2018/Face/Holographic_Halo_Finishing_Powder/holographichalofinishingpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/holographic-halo-finishing-powder/NYX_607.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Glow your own way using Holographic Halo Finishing Powder! This ultra-fine loose powder comes in two pearly shades and delivers an ethereal look that’s crazy gorgeous. Lightly dust it all over your complexion to set and softly illuminate, or along the highest points of the face—like the bridge of the nose, cheekbones or Cupid’s bow—to add a touch of radiance here and there.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/938/original/open-uri20171224-4-52epl7?1514082690",
+        ],
+        [
+            "id" => 937,
+            "brand_id" => 38,
+            "name" => "Blotting Powder",
+            "price" => "12.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1f4a57e0/ProductImages/Face/Blotting_Powder/800897822620_blottingpowder_light_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/blotting-powder/NYX_125.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Kissed with the barest hint of pigment Blotting Powder takes down the shine without settling into fine lines polishing skin to satin matte perfection.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/937/original/open-uri20171224-4-9ujiam?1514082689",
+        ],
+        [
+            "id" => 936,
+            "brand_id" => 38,
+            "name" => "#NOFILTER Finishing Powder",
+            "price" => "12.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd7e25eb8/ProductImages/2016/Face/No_Filter_Finishing_Powder/nofilterfinishingpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/no-filter-finishing-powder/NYX_358.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Introduce us to someone who doesn’t love a good photo filter, and we’ll introduce you to our secret herd of pet unicorns. Our point? When it comes to getting our picture taken, we all love a good filter. That’s why we created #NoFilter Finishing Powder--our amazing new product that delivers a finish as flawless and soft as the most flattering filters on Instagram and beyond.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/936/original/open-uri20171224-4-h5gd5x?1514082686",
+        ],
+        [
+            "id" => 935,
+            "brand_id" => 38,
+            "name" => "Color Correcting Powder",
+            "price" => "10.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw78639528/ProductImages/Face/Color_Correcting_Powder/colorcorrectingpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/color-correcting-powder/NYX_167.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Even out your complexion using our ultra-fine translucent loose Color Correcting Powder. This lightweight easy to use powder can be applied before or after your foundation. The paraben and talc-free formula helps you achieve a natural matte finish.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/935/original/open-uri20171224-4-15dpuwm?1514082684",
+        ],
+        [
+            "id" => 934,
+            "brand_id" => 38,
+            "name" => "High Definition Finishing Powder Mini",
+            "price" => "3.5",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw63a5fdce/ProductImages/2017/Face/High_Definition_Finishing_Powder_Mini/800897846015_highdefinitionfinishingpowdermini_translucent_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/high-definition-finishing-powder-mini/NYX_507.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Your favorite beauty essential is now available in a convenient travel sized mini. A lightweight, translucent finishing powder that helps soften the appearance of fine lines and pores. This silky pressed powder has a fresh matte finish.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/934/original/open-uri20171224-4-1b8y84r?1514082683"
+        ],
+        [
+            "id" => 933,
+            "brand_id" => 38,
+            "name" => "Primal Colors",
+            "price" => "5.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2872d6ca/ProductImages/Eyes/Primal_Colors/primalcolors_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/primal-colors/NYX_108.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Unleash your inner theatrical makeup artist with these incredible pressed pigments. Creates a variety of special effects with the ultimate staying power.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/933/original/open-uri20171224-4-18zslbp?1514082681",
+        ],
+        [
+            "id" => 932,
+            "brand_id" => 38,
+            "name" => "Radiant Finishing Powder",
+            "price" => "9.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf8ec0855/ProductImages/Face/Radiant_Finishing_Powder/radiantfinishingpowder_main.jpg?sw=390&sh=390&sm=fit",
+            "product_link" =>
+            "https://www.nyxcosmetics.com/radiant-finishing-powder/NYX_138.html?cgid=powder",
+            "website_link" => "https://www.nyxcosmetics.com",
+            "description" =>
+            "Two ways to get your glow on. A luminous multicolored finishing powder to brighten and perfect and a warm shimmering shade for sunkissed radiance.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 6,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/932/original/open-uri20171224-4-tpsvw?1514082680",
+        ],
+
+        [
+            "id" => 730,
+            "brand_id" => 18,
+            "name" => "Matte",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/v6_packshots_sku_pdg%252FPDG_Y0002959-F000355999.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000375999-couture-colour-long-wear-nail-lacquer.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Discover the new-generation Dior Vernis and its ingenious formula that accentuates the gel effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 10,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:23:26.195Z",
+            "updated_at" => "2017-12-23T20:59:00.800Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/730.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/730/original/data?1514062740",
+        ],
+        [
+            "id" => 729,
+            "brand_id" => 18,
+            "name" => "Poison Metal",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003559_F000355979.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000355979-couture-colour-long-wear-nail-lacquer.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Discover the new-generation Dior Vernis and its ingenious formula that accentuates the gel effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 10,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/729/original/data?1514062740",
+        ],
+        [
+            "id" => 716,
+            "brand_id" => 18,
+            "name" => "Sourcils Poudre",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0746300.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyebrows/pr-eyebrows-y0746300_f074630093-powder-eyebrow-pencil-with-a-brush-and-sharpener.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The finish of a powder combined with the powerful definition of a wax in a professional pencil that gives a denser shape to the brow line for a naturally structured effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 3,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:23:12.519Z",
+            "updated_at" => "2017-12-23T20:58:57.438Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/716.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/716/original/open-uri20171223-4-lr6t41?1514062737"
+        ],
+        [
+            "id" => 692,
+            "brand_id" => 18,
+            "name" => "5 COULEURS",
+            "price" => "45.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148410.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148410-high-fidelity-colours-effects-eyeshadow-palette.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "An icon of the Dior look and a concentration of expertise in terms of colour and visual effects, the 5 Couleurs palette is reinvented. More creative than ever, with stronger pigments and richer effects, it allows women to explore every facet of colour and express every aspect of their personality. With the 5 Couleurs palette, self-expression is unlimited, creativity is unleashed and colour is more audacious than ever.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/692/original/open-uri20171223-4-1ia7ngs?1514062731",
+        ],
+        [
+            "id" => 691,
+            "brand_id" => 18,
+            "name" => "Diorshow Mono",
+            "price" => "25.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0147160_f014716623.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0147160-professional-eye-shadow-spectacular-effects-long-wear.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Diorshow Mono, the eyeshadow used by the Dior makeup artists, was inspired by the fabric textures of the brand\'s fashions - matte, silky, ultra-glittery and lamé - and features super-saturated hues to deck the eyes in long-lasting colors with radiant finishes.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/691/original/open-uri20171223-4-1mp005c?1514062731",
+        ],
+        [
+            "id" => 690,
+            "brand_id" => 18,
+            "name" => "Diorshow Fusion Mono Matte",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148310_F014831761_012016.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148310-long-wear-professional-eyeshadow.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "A weightless texture that blends into the skin and dresses the eye in velvety colour. In a single step, it creates an even and intense matte finish for a professional makeup effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/690/original/open-uri20171223-4-13ulolv?1514062730",
+        ],
+        [
+            "id" => 689,
+            "brand_id" => 18,
+            "name" => "Diorshow Fusion Mono",
+            "price" => "25.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148300_F014830821_012016.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148300-long-wear-professional-mirror-shine-eyeshadow.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "A weightless texture that blends into the skin and dresses the eye in velvety colour. In a single step, it creates an even and intense matte finish for a professional makeup effect.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/689/original/open-uri20171223-4-b1imkg?1514062730",
+        ],
+        [
+            "id" => 686,
+            "brand_id" => 18,
+            "name" => "DIORBLUSH PRECIOUS ROCKS - Christmas 2017 Limited Edition",
+            "price" => "20.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The new limited-edition Diorblush showcases every facet of the Precious Rocks collection. Printed with a prismatic motif that reflects that of a precious stone, its sheer, peach colour blends seamlessly with your skin to deliver a fresh, crystal-clear complexion.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/686/original/open-uri20171223-4-msf54n?1514062728",
+        ],
+        [
+            "id" => 685,
+            "brand_id" => 18,
+            "name" => "Diorblush Sculpt",
+            "price" => "32.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0716250.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0716250_f071625001-professional-contouring-powder-blush.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "The first contouring blush by Dior, Diorblush Sculpt allows you to easily redefine the face’s structure and volumes with the precision of a makeup artist thanks to its two contrasting shades.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/685/original/open-uri20171223-4-1p1tlsw?1514062728",
+        ],
+        [
+            "id" => 683,
+            "brand_id" => 18,
+            "name" => "Diorskin Nude Air Tan",
+            "price" => "36.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0712400.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/healthy-glow-makeup/pr-sunmakeup-y0712400_f071240001-healthy-glow-sun-powder.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "Diorskin Nude Air bronzing powders warm the original skin tone and let the skin breathe for the continual radiant beauty of a sun-kissed healthy glow. Choose the perfect shade of tan, in matte or satiny.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/683/original/open-uri20171223-4-1nzl361?1514062729",
+        ],
+        [
+            "id" => 673,
+            "brand_id" => 18,
+            "name" => "Dior Addict Lip Maximizer",
+            "price" => "25.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028670.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0028670_f002867001-collagen-active-lip-gloss.html",
+            "website_link" => "https://www.dior.com",
+            "description" => "The first instant-volume gloss from Dior Backstage.",
+            "rating" => null,
+            "texture_id" => 11,
+            "category_id" => 8,
+            "tag_list" => [],
+            "created_at" => "2017-12-03T23:22:18.123Z",
+            "updated_at" => "2017-12-23T20:58:45.684Z",
+            "product_api_url" =>
+            "http://makeup-api.herokuapp.com/api/v1/products/673.json",
+            "api_featured_image" =>
+            "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/673/original/open-uri20171223-4-sia3yz?1514062725",
+        ],
+        [
+            "id" => 672,
+            "brand_id" => 18,
+            "name" => "Dior Addict Ultra-Gloss",
+            "price" => "24.0",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0285300.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0285300_f028530004-sensational-mirror-shine-hydra-plumping-volume.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "More than just a gloss, Dior Addict Ultra-Gloss is a lip plumper and gloss all in one.",
+            "rating" => null,
+            "texture_id" => 11,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/672/original/open-uri20171223-4-1jr6g64?1514062725",
+        ],
+        [
+            "id" => 669,
+            "brand_id" => 18,
+            "name" => "DIORIFIC KHÔL",
+            "price" => "29.5",
+            "price_sign" => "£",
+            "currency" => "GBP",
+            "image_link" =>
+            "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027647_F002764751.jpg",
+            "product_link" =>
+            "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0027647_f002764341-powder-lipstick-ultra-pigmented-long-wear-intensity.html",
+            "website_link" => "https://www.dior.com",
+            "description" =>
+            "For the first time at Dior, Diorific is now available as Lip Khôl designed to adorn your lips in intense colour with a powdery, matte finish.",
+            "rating" => null,
+            "texture_id" => 10,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/669/original/open-uri20171223-4-1r1wmbn?1514062724",
+        ],
+        [
+            "id" => 640,
+            "brand_id" => 5,
+            "name" => "rockateur",
+            "price" => "36.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/rockateur-component0_0.png?itok=v8BJdMkW",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/rockateur",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "famously provocative cheek powder",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/640/original/open-uri20171223-4-11ws6ld?1514061764",
+        ],
+        [
+            "id" => 639,
+            "brand_id" => 5,
+            "name" => "cheekathon bronzer & blush palette",
+            "price" => "75.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/cheekathon-blush-kit-component.png?itok=6ih0smf9",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/cheekathon",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "“kick up your cheeks” blush kit",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/639/original/open-uri20171223-4-1uw9qxu?1514061763",
+        ],
+        [
+            "id" => 623,
+            "brand_id" => 5,
+            "name" => "BIG sexy lipstick set",
+            "price" => "38.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-big-sexy-lip-kit-component_0.png?itok=1CmB3i_p",
+            "product_link" =>
+            "https://www.benefitcosmetics.com/ca/en-gb/product/big-sexy-lipstick-set",
+            "website_link" => "https://www.benefitcosmetics.com",
+            "description" => "4 all-in-one lipstick and liners",
+            "rating" => null,
+            "texture_id" => 10,
+            "category_id" => 8,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/623/original/open-uri20171223-4-15ajw4w?1514061759",
+        ],
+        [
+            "id" => 528,
+            "brand_id" => 51,
+            "name" => "Mini Full Exposure Palette",
+            "price" => "25.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56725_388x396_0.jpg",
+            "product_link" =>
+            "http://www.smashbox.com/product/6029/31330/eyes/eye-shadow/mini-full-exposure-palette/new",
+            "website_link" => "http://www.smashbox.com/",
+            "description" =>
+            "We see so many different eyes on set that our L.A. photo studio pros created this must-have range of neutrals to match any and all of them—yours included.Includes:8 universally awesome neutral shades—from nudes to blacks—in the most blendable formulasLong-wearing shimmers and velvety smooth mattes; turn up or tone down the lusterWe see so many different eyes on set that our L.A. photo studio pros created this must-have range of neutrals to match any and all of them—yours included.Includes:8 universally awesome neutral shades—from nudes to blacks—in the most blendable formulasLong-wearing shimmers and velvety smooth mattes; turn up or tone down the luster",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 5,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/528/original/open-uri20171223-4-qdeca8?1514062151",
+        ],
+        [
+            "id" => 468,
+            "brand_id" => 31,
+            "name" => "Maybelline Face Studio Master Hi-Light Light Booster Blush",
+            "price" => "14.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/4621032a92cb428ad640c105b944b39c_ra,w158,h184_pa,w158,h184.png",
+            "product_link" =>
+            "https://well.ca/products/maybelline-face-studio-master_88831.html",
+            "website_link" => "https://well.ca",
+            "description" => "Maybelline Face Studio Master Hi-Light Light Boosting blush formula has an expert balance of shade + shimmer illuminator for natural glow. Skin goes soft-lit with zero glitz. For Best Results: Brush over all shades in palette and gently sweep over cheekbones, brow bones, and temples, or anywhere light naturally touches the face.",
+            "rating" => null,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/468/original/open-uri20171223-4-sz64re?1514063327",
+        ],
+        [
+            "id" => 459,
+            "brand_id" => 33,
+            "name" => "Mineral Fusion Blush",
+            "price" => "32.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/f1c6dea6717aeaa8796a5f62992d8979_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/mineral-fusion-blush_91619.html",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "Mineral Fusion Blush features luxuriously silky, triple-milled minerals that offer a natural flush of color to brighten the complexion and create a healthy, youthful glow. Includes a powerful blend of Pomegranate, White Tea, Red Tea and Sea Kelp, plus Vitamins C and E that defend skin against free radical damage for a healthy radiance. Free of Gluten, Parabens, Artificial Colors, Fragrances and Talc. Never-tested on animals. Hypo-allergenic.Ingredients: Mica, Zinc Stearate, Octyldodecyl Stearoyl Stearate, Titanium Dioxide (CI 77891), Caprylic/Capric Triglyceride, Tocopheryl Acetate (Vitamin E), Ascorbyl Palmitate (Vitamin C), Camellia Sinensis (White Tea) Leaf Extract, Aspalathus Linearis (Rooibos Red Tea) Leaf Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grape) Seed Extract, Laminaria Ochroleuca (Sea Kelp) Extract, Aloe Barbadensis (Aloe Vera) Extract, Lauroyl Lysine, Sambucus Nigra Fruit (Elderberry), Phenoxyethanol. MAY CONTAIN (+/-): Iron Oxides (CI 77491, 77492, 77499), Carmine (CI 75470), Ultramarine (CI 77007), Manganese Violet (CI 77742). ",
+            "rating" => 5,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/459/original/data?1514063321",
+        ],
+        [
+            "id" => 458,
+            "brand_id" => 15,
+            "name" => "CoverGirl Clean Glow Blush ",
+            "price" => "8.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/bb0b0c2057205b8e39823c5c7fc6af45_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/covergirl-clean-glow-blush_78621.html",
+            "website_link" => "https://well.ca",
+            "description" => "Complete your Clean® look with a flush of lightweight, blendable color. This versatile 3-in-1 multi-shade compact lets you customize your color to create a radiant effect. Use just one color or all three!Features: 3-in-1 multi-shade compactLightweight, blendable flush of colorClean and natural lookHow to Apply:  Begin with the contour, or darkest, shade in your palette and apply to the hollow space below your cheekbones. Apply the medium shade to the apples of your cheeks and sweep upwards toward the hairline. For a youthful glow, highlight the tops of your cheeks with the lightest shade.",
+            "rating" => 5,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/458/original/data?1514063320",
+        ],
+        [
+            "id" => 456,
+            "brand_id" => 42,
+            "name" => "Physicians Formula Nude Wear Glowing Nude Blush",
+            "price" => "15.99",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/8df6f68abe9f6bf47546254706f54e37_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/physicians-formula-nude-wear-glowing_90087.html",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "This natural, luxurious blush is so lightweight you\'ll never even feel it. Sheer coverage with a hint of luminosity delivers a lit-from-within blushing glow.Airy formula boosts skins natural luminosity, and allows skin’s natural radiance and color to shine through. A perfect blend of blush and complexion boosting tones brighten and enhance skin tone while adding a touch of naturally radiant color.Hypoallergenic. Fragrance-Free. Gluten Free. Paraben-Free. Non-Comedogenic. Dermatologist approved. ",
+            "rating" => 4,
+            "texture_id" => 1,
+            "category_id" => 1,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/456/original/open-uri20171223-4-c79x3p?1514062292",
+        ],
+        [
+            "id" => 274,
+            "brand_id" => 40,
+            "name" => "Pacifica Natural Minerals Solar Complete Color Mineral Palette",
+            "price" => "60.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/baf991d5944d310d8c337423486b77ea_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/pacifica-natural-minerals-solar_86675.html?cat=328",
+            "website_link" => "https://well.ca",
+            "description" =>
+            "All you need to look naturally gorgeous!  The Solar Complete Mineral Palette is a full set of eye shadows, blush, bronzer and coconut highlighters all in one beautiful, recyclable palette.  Each natural mineral shadow is highly pigmented and so smooth it applies like a cream.  Plus the new blush and bronzer are infused with coconut, apply easily and can be layered to build color.  The coconut highlighters are in two new shades as well as the popular Island Rose and can be used on cheekbones, eye brow bones, and even the lips to provide the perfect amount of natural brightness.  With a variety of colors, many looks are achievable so you can be natural by day or smokin\' hot by night.Colours Included:Eye shades: Neptune, Glow, Treasure, Coral, Mermaid Aqua, SandalwoodCheek shades: Flushed, BronzedHighlighter shades: Gold Dust, Island Rose, Pink Opal",
+            "rating" => 4.9,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/274/original/data?1514063328",
+        ],
+        [
+            "id" => 430,
+            "brand_id" => 10,
+            "name" => "Cargo Cosmetics BeachBlush ",
+            "price" => "32.0",
+            "price_sign" => null,
+            "currency" => null,
+            "image_link" =>
+            "https://d3t32hsnjxo7q6.cloudfront.net/i/62507a6df269ba7ecba37157bc4bc3e9_ra,w158,h184_pa,w158,h184.jpeg",
+            "product_link" =>
+            "https://well.ca/products/cargo-cosmetics-beachblush_87477.html?cat=328",
+            "website_link" => "https://well.ca",
+            "description" => "Imagine the perfect marriage of blush and bronzer!  Four harmonious shades work together to provide perfectly flushed cheeks with a sun-drenched glow. Golden goddess effects in a flash! Cargo Cosmetics\' BeachBlush™ has earned its status as one of Cargo\'s most iconic products and even appeared as a question on Jeopardy!  Packaged in Cargo\'s signature tin with generous surface area for easy swirling. This BeachBlush in Echo Beach is a warm berry bronze color medley.Features: Four harmonious shades in one tin work together to provide the perfect balance of color for all skin tones, avoiding the yellow look of many bronzers Light reflective shimmer particles add a radiant glow to the skin and soften the appearance of fine linesGenerously packaged with in Cargo\'s signature tin this medley of four distinct, multi-tonal bronzing and   blush shades gives a beautiful and distinctive look to the product, unique from Cargo’s other blush and bronzing productsBeachBlush™ is the perfect complement to both your bronzing powder and your blushHow to Use: Apply using a fluff brushTo optimize all four shades in BeachBlush swirl the brush over all four color bars, combining the different tones to create one harmonious hueApply to the cheekbone area, dust lightly onto the apples of the cheeks as well as any areas of the face that would be naturally kissed by the sun Ingredients: Mica, Dimethicone, Zinc Stearate, Ethylhexyl Palmitate, Octyldodecyl Steaoryl Stearate, Octyldodecanol, Potassium Sorbate, Sodium Benzoate, Benzyl Alcohol, BHT, Tin Oxide May Contain (+/-): CI 77891 (Titanium Dioxide), CI 77491 / CI 77492 / CI 77499 (Iron Oxides), CI 75470 (Carmine), CI 45410 (Red 27 Lake), CI 19140 (Yellow 5 Lake), CI 15850 (Red 6 Lake).",
+            "rating" => 5,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/430/original/data?1514063323",
+        ],
+        [
+            "id" => 784,
+            "brand_id" => 12,
+            "name" => "Up-lighting&trade; Liquid Illuminator",
+            "price" => "28.0",
+            "price_sign" => "$",
+            "currency" => "USD",
+            "image_link" =>
+            "https://www.clinique.com/media/export/cms/products/181x209/clq_6L1X_181x209.png",
+            "product_link" =>
+            "https://www.clinique.com/product/1594/6429/makeup/bronzers/up-lighting-liquid-illuminator",
+            "website_link" => "https://www.clinique.com",
+            "description" =>
+            "Sheer, lightweight liquid instantly illuminates skin. Highlights and contours cheeks, brow bones, or gives face an allover glow. Glides on to create a natural-looking luminosity. Perfect for all skin types and tones. Oil-free.",
+            "rating" => null,
+            "texture_id" => null,
+            "category_id" => 2,
+            "api_featured_image" => "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/784/original/data?1514072336",
         ],
     ]
 ];
